@@ -1,0 +1,8 @@
+user:
+  label: Compte
+  view:
+    form: $/rainlab/user/Models/User/fields.yaml
+  manage:
+    form: $/rainlab/user/Models/User/fields.yaml
+    list: $/rainlab/user/Models/User/columns.yaml
+    showCheckboxes: true

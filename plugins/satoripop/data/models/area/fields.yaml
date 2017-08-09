@@ -1,0 +1,16 @@
+fields:
+    title:
+        label: title
+        oc.commentPosition: ''
+        span: full
+        type: text
+    longutide:
+        label: longutide
+        oc.commentPosition: ''
+        span: full
+        type: text
+    latitude:
+        label: latitude
+        span: full
+        oc.commentPosition: ''
+        type: text

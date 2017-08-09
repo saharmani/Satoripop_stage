@@ -1,0 +1,28 @@
+plugin:
+    name: 'satoripop.data::lang.plugin.name'
+    description: 'satoripop.data::lang.plugin.description'
+    author: satoripop
+    icon: oc-icon-database
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'satoripop.data::lang.plugin.name'
+        url: satoripop/data/destination
+        icon: icon-database
+        sideMenu:
+            side-menu-item5:
+                label: Destination
+                url: satoripop/data/destination
+                icon: icon-sitemap
+            side-menu-item:
+                label: Area
+                url: satoripop/data/areas
+                icon: icon-plane
+            side-menu-item3:
+                label: 'diving level'
+                url: satoripop/data/divinglavels
+                icon: icon-level-up
+            side-menu-item4:
+                label: introduction
+                url: satoripop/data/introductions
+                icon: icon-newspaper-o

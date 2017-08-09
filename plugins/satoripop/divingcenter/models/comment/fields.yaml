@@ -1,0 +1,21 @@
+fields:
+    description:
+        label: Description
+        size: ''
+        oc.commentPosition: ''
+        span: full
+        type: textarea
+    newsletter:
+        label: Newsletter
+        oc.commentPosition: ''
+        span: full
+        type: text
+    average_grade:
+        label: 'Average grade'
+        oc.commentPosition: ''
+        span: full
+        type: number
+    published:
+        label: Published
+        span: full
+        type: switch

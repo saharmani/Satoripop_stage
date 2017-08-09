@@ -1,0 +1,10 @@
+name: Inflationstations
+form: $/satoripop/equipement/models/inflationstation/fields.yaml
+modelClass: satoripop\Equipement\Models\Inflationstation
+defaultRedirect: satoripop/equipement/inflationstations
+create:
+    redirect: 'satoripop/equipement/inflationstations/update/:id'
+    redirectClose: satoripop/equipement/inflationstations
+update:
+    redirect: satoripop/equipement/inflationstations
+    redirectClose: satoripop/equipement/inflationstations

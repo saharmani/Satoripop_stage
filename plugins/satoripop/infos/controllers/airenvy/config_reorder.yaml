@@ -1,0 +1,4 @@
+title: Airenvy
+modelClass: satoripop\Infos\Models\Airenvy
+toolbar:
+    buttons: reorder_toolbar

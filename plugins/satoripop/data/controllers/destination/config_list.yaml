@@ -1,0 +1,11 @@
+list: $/satoripop/data/models/destination/columns.yaml
+modelClass: satoripop\Data\Models\Destination
+title: Destination
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'satoripop/data/destination/update/:id'

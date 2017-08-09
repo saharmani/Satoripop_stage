@@ -1,0 +1,4 @@
+title: Otherservices
+modelClass: satoripop\Services\Models\Otherservice
+toolbar:
+    buttons: reorder_toolbar

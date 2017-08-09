@@ -1,0 +1,10 @@
+name: Waterenvy
+form: $/satoripop/infos/models/waterenvy/fields.yaml
+modelClass: satoripop\Infos\Models\Waterenvy
+defaultRedirect: satoripop/infos/waterenvy
+create:
+    redirect: 'satoripop/infos/waterenvy/update/:id'
+    redirectClose: satoripop/infos/waterenvy
+update:
+    redirect: satoripop/infos/waterenvy
+    redirectClose: satoripop/infos/waterenvy

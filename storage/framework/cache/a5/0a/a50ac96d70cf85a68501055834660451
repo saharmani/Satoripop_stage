@@ -1,0 +1,52 @@
+1502257324a:1:{s:15:"site/header.htm";a:6:{s:8:"fileName";s:15:"site/header.htm";s:7:"content";s:1072:"[localePicker]
+forceUrl = 0
+==
+<!-- Nav -->
+<nav id="layout-nav" class="navbar navbar-inverse navbar-fixed-top navbar-autohide" role="navigation">
+    <div class="container">
+      
+       
+    <ul class="nav nav-pills">
+                <li class="{% if this.page.id == 'home' %} active {% endif %}"><a href="{{ 'home'|page }}">Home</a></li>
+                <li class="{% if this.page.id == 'centers' %} active {% endif %}"><a href="{{ 'centers'|page }}">{{'Centers'|_}}</a></li>
+                <li class="{% if this.page.id == 'login' %} active {% endif %}"><a href="{{ 'login'|page }}">
+
+                    {% if not user  %}
+                        Login
+                    {% else %}
+                        My profile
+                    {% endif %}
+                </a></li>
+                {% if user %}
+                    <li><a data-request="onLogout" data-request-data="redirect: '/'">
+{{'Déconnexion'|_}}</a></li>
+                {% endif %}
+                <li>    {% component "localePicker" %}  </li>
+</ul>
+ 
+    </div>
+</nav>";s:5:"mtime";i:1501489494;s:6:"markup";s:1038:"<!-- Nav -->
+<nav id="layout-nav" class="navbar navbar-inverse navbar-fixed-top navbar-autohide" role="navigation">
+    <div class="container">
+      
+       
+    <ul class="nav nav-pills">
+                <li class="{% if this.page.id == 'home' %} active {% endif %}"><a href="{{ 'home'|page }}">Home</a></li>
+                <li class="{% if this.page.id == 'centers' %} active {% endif %}"><a href="{{ 'centers'|page }}">{{'Centers'|_}}</a></li>
+                <li class="{% if this.page.id == 'login' %} active {% endif %}"><a href="{{ 'login'|page }}">
+
+                    {% if not user  %}
+                        Login
+                    {% else %}
+                        My profile
+                    {% endif %}
+                </a></li>
+                {% if user %}
+                    <li><a data-request="onLogout" data-request-data="redirect: '/'">
+{{'Déconnexion'|_}}</a></li>
+                {% endif %}
+                <li>    {% component "localePicker" %}  </li>
+</ul>
+ 
+    </div>
+</nav>";s:4:"code";N;s:12:"localePicker";a:1:{s:8:"forceUrl";s:1:"0";}}}

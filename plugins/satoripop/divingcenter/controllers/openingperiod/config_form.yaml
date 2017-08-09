@@ -1,0 +1,10 @@
+name: Openingperiod
+form: $/satoripop/divingcenter/models/openingperiod/fields.yaml
+modelClass: satoripop\DivingCenter\Models\Openingperiod
+defaultRedirect: satoripop/divingcenter/openingperiod
+create:
+    redirect: 'satoripop/divingcenter/openingperiod/update/:id'
+    redirectClose: satoripop/divingcenter/openingperiod
+update:
+    redirect: satoripop/divingcenter/openingperiod
+    redirectClose: satoripop/divingcenter/openingperiod

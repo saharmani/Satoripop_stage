@@ -1,0 +1,44 @@
+fields:
+    centername:
+        label: 'Nom du centre de plongée'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    managername:
+        label: 'Nom du manager'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    tel:
+        label: 'Numéro de téléphone'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    ville:
+        label: Ville
+        oc.commentPosition: ''
+        span: full
+        type: text
+    pays:
+        label: Pays
+        oc.commentPosition: ''
+        span: full
+        type: text
+    question:
+        label: Question
+        span: full
+        size: ''
+        oc.commentPosition: ''
+        type: textarea
+    email:
+        label: Email
+        oc.commentPosition: ''
+        span: full
+        type: text
+    user:
+        label: 'creation d un compte '
+        oc.commentPosition: ''
+        required: 1
+        type: partial
+        path: field_user
+

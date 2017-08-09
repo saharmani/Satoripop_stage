@@ -1,0 +1,10 @@
+name: Affiliations
+form: $/satoripop/infos/models/affiliation/fields.yaml
+modelClass: satoripop\Infos\Models\Affiliation
+defaultRedirect: satoripop/infos/affiliations
+create:
+    redirect: 'satoripop/infos/affiliations/update/:id'
+    redirectClose: satoripop/infos/affiliations
+update:
+    redirect: satoripop/infos/affiliations
+    redirectClose: satoripop/infos/affiliations

@@ -1,0 +1,4 @@
+title: Paymentmethod
+modelClass: satoripop\Infos\Models\Paymentmethod
+toolbar:
+    buttons: reorder_toolbar

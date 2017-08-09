@@ -1,0 +1,10 @@
+name: Products
+form: $/satoripop/services/models/product/fields.yaml
+modelClass: satoripop\Services\Models\Product
+defaultRedirect: satoripop/services/products
+create:
+    redirect: 'satoripop/services/products/update/:id'
+    redirectClose: satoripop/services/products
+update:
+    redirect: satoripop/services/products
+    redirectClose: satoripop/services/products

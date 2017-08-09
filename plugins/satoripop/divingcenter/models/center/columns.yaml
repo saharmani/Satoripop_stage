@@ -1,0 +1,33 @@
+columns:
+    id:
+        label: id
+        type: number
+        searchable: true
+        sortable: true
+    title:
+        label: name
+        type: text
+        sortable: true
+    destination:
+        label: Destination
+        type: text
+        searchable: true
+        sortable: true
+        select: title
+        relation: destination
+    theme:
+        label: Théme
+        type: text
+        searchable: true
+        sortable: true
+        select: title
+        relation: theme
+    published:
+        label: published
+        type: inetis-list-switch
+        icon: 'true'
+        titleTrue: 'Publish item'
+        titleFalse: ' Unpublish item'
+        textTrue: Published
+        textFalse: Unpublished
+

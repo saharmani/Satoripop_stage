@@ -1,0 +1,4 @@
+title: Othermaterial
+modelClass: satoripop\Equipement\Models\Othermaterial
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,11 @@
+list: $/satoripop/data/models/introduction/columns.yaml
+modelClass: satoripop\Data\Models\Introduction
+title: Introductions
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'satoripop/data/introductions/update/:id'

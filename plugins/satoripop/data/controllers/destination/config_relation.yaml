@@ -1,0 +1,9 @@
+area:
+  label: Zone
+  view:
+    form: $\satoripop\Data\Models\Area\fields.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    form: $\satoripop\Data\Models\Area\fields.yaml
+    list: $\satoripop\Data\Models\Area\columns.yaml
+ 

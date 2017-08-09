@@ -1,0 +1,10 @@
+name: Airenvy
+form: $/satoripop/infos/models/airenvy/fields.yaml
+modelClass: satoripop\Infos\Models\Airenvy
+defaultRedirect: satoripop/infos/airenvy
+create:
+    redirect: 'satoripop/infos/airenvy/update/:id'
+    redirectClose: satoripop/infos/airenvy
+update:
+    redirect: satoripop/infos/airenvy
+    redirectClose: satoripop/infos/airenvy

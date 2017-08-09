@@ -1,0 +1,4 @@
+title: Divinglavels
+modelClass: satoripop\Data\Models\Divinglavel
+toolbar:
+    buttons: reorder_toolbar

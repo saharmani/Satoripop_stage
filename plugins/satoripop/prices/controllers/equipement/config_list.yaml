@@ -1,0 +1,11 @@
+list: $/satoripop/prices/models/equipment/columns.yaml
+modelClass: satoripop\Prices\Models\Equipment
+title: Equipement
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'satoripop/prices/equipement/update/:id'

@@ -1,0 +1,10 @@
+name: Othermaterial
+form: $/satoripop/equipement/models/othermaterial/fields.yaml
+modelClass: satoripop\Equipement\Models\Othermaterial
+defaultRedirect: satoripop/equipement/othermaterial
+create:
+    redirect: 'satoripop/equipement/othermaterial/update/:id'
+    redirectClose: satoripop/equipement/othermaterial
+update:
+    redirect: satoripop/equipement/othermaterial
+    redirectClose: satoripop/equipement/othermaterial

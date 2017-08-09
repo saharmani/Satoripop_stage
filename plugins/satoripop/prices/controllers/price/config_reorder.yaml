@@ -1,0 +1,4 @@
+title: Price
+modelClass: satoripop\Prices\Models\Price
+toolbar:
+    buttons: reorder_toolbar

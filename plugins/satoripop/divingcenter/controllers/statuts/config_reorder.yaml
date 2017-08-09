@@ -1,0 +1,4 @@
+title: Statuts
+modelClass: satoripop\DivingCenter\Models\Statut
+toolbar:
+    buttons: reorder_toolbar

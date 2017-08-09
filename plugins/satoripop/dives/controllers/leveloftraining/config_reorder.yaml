@@ -1,0 +1,4 @@
+title: Leveloftraining
+modelClass: Satoripop\Dives\Models\Levelsoftraining
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,392 @@
+tabs:
+    fields:
+        title:
+            label: Titre
+            oc.commentPosition: ''
+            span: left
+            required: 1
+            type: text
+            tab: Informations
+        slug:
+            label: slug
+            oc.commentPosition: ''
+            span: auto
+            hidden: 0
+            defaultFrom: title
+            preset:
+                field: title
+                type: slug
+            type: text
+            tab: Informations
+        centercode:
+            label: 'Code du Centre'
+            oc.commentPosition: ''
+            span: left
+            required: 1
+            type: text
+            tab: Informations
+        emailprefacture:
+            label: 'Email préfacture'
+            oc.commentPosition: ''
+            span: left
+            required: 1
+            type: text
+            tab: Informations
+        CGV:
+            label: CGV
+            oc.commentPosition: ''
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: right
+            required: 1
+            type: fileupload
+            tab: Informations
+        destination:
+            label: Destination
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: left
+            required: 1
+            type: partial
+            path: field_destination
+            tab: Informations
+        theme:
+            label: Thémes
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: right
+            required: 1
+            type: partial
+            path: field_theme
+            tab: Informations
+        accommodation:
+            label: Hébergements
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: left
+            required: 1
+            type: partial
+            path: field_accommodation
+            tab: Informations
+        test:
+            label: 'Testé ?'
+            oc.commentPosition: ''
+            options:
+                'Testé et approuvé': 'Testé et approuvé'
+                'En cours de test': 'En cours de test'
+                Non: Non
+            span: full
+            type: radio
+            tab: 'Infos pratiques'
+        distancetothesea:
+            label: 'Distance a la mer'
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: left
+            required: 1
+            type: partial
+            path: field_distancetothesea
+            tab: 'Infos pratiques'
+        accommodationcapacity:
+            label: 'Capacité d''accueil'
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: right
+            required: 1
+            type: partial
+            path: field_accommodationcapacity
+            tab: 'Infos pratiques'
+        adresse:
+            label: Adresse
+            oc.commentPosition: ''
+            span: auto
+            type: text
+            tab: 'Infos pratiques'
+        codepostal:
+            label: 'Code postal'
+            oc.commentPosition: ''
+            span: auto
+            type: text
+            tab: 'Infos pratiques'
+        pays:
+            label: Pays
+            oc.commentPosition: ''
+            span: left
+            type: text
+            tab: 'Infos pratiques'
+        affiliation:
+            label: Affiliations
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: right
+            type: partial
+            path: field_affiliation
+            tab: 'Infos pratiques'
+        spokenlanguage:
+            label: 'Langues parlées'
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: left
+            type: partial
+            path: field_spokenlanguage
+            tab: 'Infos pratiques'
+        paymentmethod:
+            label: 'Méthodes de paiements'
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: right
+            type: partial
+            path: field_paymentmethod
+            tab: 'Infos pratiques'
+        typeofdive:
+            label: 'Types de plongée'
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: left
+            type: partial
+            path: field_typeofdive
+            tab: Plongées
+        baptisms:
+            label: 'Baptêmes de plongée'
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: right
+            type: partial
+            path: field_baptisms
+            tab: Plongées
+        othertypeofdiving:
+            label: 'Autre plongées'
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: left
+            type: partial
+            path: field_othertypeofdiving
+            tab: Plongées
+        scubadiving:
+            label: 'Plongée d''exploration'
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: right
+            type: partial
+            path: field_scubadiving
+            tab: Plongées
+        training:
+            label: Formations
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: left
+            type: partial
+            path: field_training
+            tab: Plongées
+        typeoftraining:
+            label: 'Type de formations'
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: right
+            type: partial
+            path: field_typeoftraining
+            tab: Plongées
+        additionalservices:
+            label: 'Prestations annexes'
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: left
+            type: partial
+            path: field_additionalservices
+            tab: Plongées
+        numberofboat:
+            label: 'Nombre d''embarcation'
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: left
+            type: partial
+            path: field_numberofboat
+            tab: Equipements
+        boatcapacity:
+            label: 'Capacité des embarcations'
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: right
+            type: partial
+            path: field_boatcapacity
+            tab: Equipements
+        childequipment:
+            label: 'Equipement pour enfant'
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: left
+            type: partial
+            path: field_childequipment
+            tab: Equipements
+        adultmaterial:
+            label: 'Equipement pour adulte'
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: right
+            type: partial
+            path: field_adultmaterial
+            tab: Equipements
+        typeofboat:
+            label: 'Type d''embarcation'
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: left
+            type: partial
+            path: field_typeofboat
+            tab: Equipements
+        boatequipment:
+            label: 'Matériel des embarcations'
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: right
+            type: partial
+            path: field_boatequipment
+            tab: Equipements
+        visuel:
+            label: 'Visuels (280x185)'
+            oc.commentPosition: ''
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: 'Visuels visionneuse'
+        transfer:
+            label: Transfert
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: auto
+            type: partial
+            path: field_transfer
+            tab: Services
+        restoration:
+            label: Restaurations
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: auto
+            type: partial
+            path: field_restoration
+            tab: Services
+        photovideo:
+            label: 'Photo / video'
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: auto
+            type: partial
+            path: field_photovideo
+            tab: Services
+        products:
+            label: 'Produits dérivés'
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: auto
+            type: partial
+            path: field_products
+            tab: Services
+        otherservices:
+            label: Autre
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: auto
+            type: partial
+            path: field_otherservices
+            tab: Services
+        airenvy:
+            label: 'Envie d''air'
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: auto
+            type: partial
+            path: field_airenvy
+            tab: Envies
+        waterenvy:
+            label: 'Envie d''eau'
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: auto
+            type: partial
+            path: field_waterenvy
+            tab: Envies
+        confort:
+            label: Confort
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: auto
+            type: partial
+            path: field_confort
+            tab: Confort
+        ecology:
+            label: Ecologie
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: auto
+            type: partial
+            path: field_ecology
+            tab: Ecologie
+        openingperiod:
+            label: 'Période d''ouverture'
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: auto
+            type: relation
+            tab: 'Période d''ouverture'
+            country: null
+        latitude:
+            label: latitude
+            oc.commentPosition: ''
+            span: auto
+            type: text
+            tab: Cart
+            attributes:
+                onblur: initMap()
+        longitude:
+            label: longitude
+            oc.commentPosition: ''
+            span: auto
+            type: text
+            tab: Cart
+            attributes:
+                onblur: initMap()
+        map:
+            label: Map
+            oc.commentPosition: ''
+            span: auto
+            type: partial
+            path: field_map
+            tab: Cart

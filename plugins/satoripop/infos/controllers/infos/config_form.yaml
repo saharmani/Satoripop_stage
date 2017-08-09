@@ -1,0 +1,10 @@
+name: Infos
+form: $/satoripop/infos/models/accommodationcapacity/fields.yaml
+modelClass: satoripop\Infos\Models\Accommodationcapacity
+defaultRedirect: satoripop/infos/infos
+create:
+    redirect: 'satoripop/infos/infos/update/:id'
+    redirectClose: satoripop/infos/infos
+update:
+    redirect: satoripop/infos/infos
+    redirectClose: satoripop/infos/infos

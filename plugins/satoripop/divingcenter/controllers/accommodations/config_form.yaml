@@ -1,0 +1,10 @@
+name: Accommodations
+form: $/satoripop/divingcenter/models/accommodation/fields.yaml
+modelClass: satoripop\DivingCenter\Models\Accommodation
+defaultRedirect: satoripop/divingcenter/accommodations
+create:
+    redirect: 'satoripop/divingcenter/accommodations/update/:id'
+    redirectClose: satoripop/divingcenter/accommodations
+update:
+    redirect: satoripop/divingcenter/accommodations
+    redirectClose: satoripop/divingcenter/accommodations

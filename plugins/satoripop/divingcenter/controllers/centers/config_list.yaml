@@ -1,0 +1,12 @@
+list: $/satoripop/divingcenter/models/center/columns.yaml
+modelClass: satoripop\DivingCenter\Models\Center
+title: Centers
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+filter: config_filter.yaml
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'satoripop/divingcenter/centers/update/:id'

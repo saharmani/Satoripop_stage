@@ -1,0 +1,11 @@
+list: $/satoripop/equipement/models/childequipment/columns.yaml
+modelClass: satoripop\Equipement\Models\Childequipment
+title: Childequipment
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'satoripop/equipement/childequipment/update/:id'

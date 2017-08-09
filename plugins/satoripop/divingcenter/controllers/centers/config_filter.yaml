@@ -1,0 +1,16 @@
+scopes:
+  theme:
+    label: Théme
+    modelClass: satoripop\DivingCenter\Models\Theme
+    conditions: id in (select center_id from satoripop_divingcenter_centers_themes where theme_id in (:filtered))
+    nameFrom: title 
+  destination:
+    label: Destination
+    modelClass: satoripop\Data\Models\Destination
+    conditions: id in (select center_id from satoripop_divingcenter_centers_destinations where destination_id in (:filtered))
+    nameFrom: title
+  published:
+    label: published
+    type: checkbox
+    conditions: published <> false
+

@@ -1,0 +1,13 @@
+
+   <form data-request="onupdatestatuts">
+   <div class="form-group dropdown-field span-left">
+   	<input type="hidden" value='$record->id' name="id" >
+        <select class="form-control custom-select mb-0 " name="status" onchange="this.form.submit();">
+            <option value="Accepté"   <?php if ($record->status == "Accepté") echo "selected='selected'";?> > Accepté </option>
+            <option value="Accepté avec réserve"
+             <?php if ($record->status == "Accepté avec réserve")echo "selected='selected'";?> >Accepté avec réserve</option>
+            <option value="Refusé"  <?php if ($record->status == "Refusé") echo "selected='selected'";?> >Refusé</option>
+            <option value="Nouveau"  <?php if ($record->status == "Nouveau") echo "selected='selected'";?> >Nouveau</option>
+        </select>
+    </div>
+   </form>

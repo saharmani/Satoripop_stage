@@ -1,0 +1,41 @@
+fields:
+    name:
+        label: Name
+        oc.commentPosition: ''
+        span: left
+        type: text
+    center:
+        label: Center
+        oc.commentPosition: ''
+        nameFrom: title
+        descriptionFrom: description
+        span: left
+        type: relation
+    age:
+        label: Age
+        oc.commentPosition: ''
+        span: left
+        type: text
+    job:
+        label: Job
+        oc.commentPosition: ''
+        span: left
+        type: text
+    description:
+        label: Description
+        size: ''
+        oc.commentPosition: ''
+        span: left
+        type: textarea
+    visuel:
+        label: 'Visuel (99x96)'
+        oc.commentPosition: ''
+        mode: image
+        imageWidth: '99'
+        imageHeight: '96'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: left
+        type: fileupload

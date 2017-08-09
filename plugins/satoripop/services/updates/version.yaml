@@ -1,0 +1,18 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table satoripop_services_transfers'
+    - builder_table_create_satoripop_services_transfers.php
+1.0.3:
+    - 'Created table satoripop_services_restoration'
+    - builder_table_create_satoripop_services_restoration.php
+1.0.4:
+    - 'Created table satoripop_services_photovideo'
+    - builder_table_create_satoripop_services_photovideo.php
+1.0.5:
+    - 'Created table satoripop_services_otherservices'
+    - builder_table_create_satoripop_services_otherservices.php
+1.0.6:
+    - 'Created table satoripop_services_products'
+    - builder_table_create_satoripop_services_products.php
+

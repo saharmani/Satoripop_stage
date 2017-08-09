@@ -1,0 +1,45 @@
+fields:
+    title:
+        label: title
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    typeoftraining:
+        label: 'type of training'
+        oc.commentPosition: ''
+        nameFrom: title
+        descriptionFrom: description
+        span: auto
+        type: relation
+    visuel:
+        label: visuel
+        oc.commentPosition: ''
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    pdf:
+        label: pdf
+        oc.commentPosition: ''
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    description:
+        label: description
+        span: full
+        size: ''
+        oc.commentPosition: ''
+        type: textarea
+    description2:
+        label: description2
+        size: ''
+        oc.commentPosition: ''
+        span: full
+        type: textarea

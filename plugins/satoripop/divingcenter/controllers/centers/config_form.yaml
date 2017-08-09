@@ -1,0 +1,10 @@
+name: Centers
+form: $/satoripop/divingcenter/models/center/fields.yaml
+modelClass: satoripop\DivingCenter\Models\Center
+defaultRedirect: satoripop/divingcenter/centers
+create:
+    redirect: 'satoripop/divingcenter/centers/update/:id'
+    redirectClose: satoripop/divingcenter/centers
+update:
+    redirect: satoripop/divingcenter/centers
+    redirectClose: satoripop/divingcenter/centers

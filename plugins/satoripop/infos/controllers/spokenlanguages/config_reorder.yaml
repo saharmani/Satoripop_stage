@@ -1,0 +1,4 @@
+title: Spokenlanguages
+modelClass: satoripop\Infos\Models\Spokenlanguages
+toolbar:
+    buttons: reorder_toolbar

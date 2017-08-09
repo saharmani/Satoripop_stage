@@ -1,0 +1,55 @@
+<div class="container">
+
+
+  <form data-request="onSave">
+
+    <div class="form-group row">
+      <label for="lgFormGroupInput" class="col-sm-2 col-form-label col-form-label-lg"> {{ 'Nom du centre de plongée'|_ }} </label>
+      <div class="col-sm-10">
+        <input type="text" name='centername' class="form-control form-control-lg" id="lgFormGroupInput">
+      </div>
+    </div>
+     <div class="form-group row">
+      <label for="lgFormGroupInput" class="col-sm-2 col-form-label col-form-label-lg"> {{'Nom du manager'|_}} </label>
+      <div class="col-sm-10">
+        <input type="text" name='managername' class="form-control form-control-lg" id="lgFormGroupInput" >
+      </div>
+    </div>
+     
+     <div class="form-group row">
+      <label for="lgFormGroupInput" class="col-sm-2 col-form-label col-form-label-lg">{{'Numéro de téléphone'|_}}</label>
+      <div class="col-sm-10">
+        <input type="number" name='tel' class="form-control form-control-lg" id="lgFormGroupInput">
+      </div>
+    </div>
+    
+      <div class="form-group row">
+      <label for="lgFormGroupInput" class="col-sm-2 col-form-label col-form-label-lg">{{'Ville'|_}}</label>
+      <div class="col-sm-10">
+        <input type="text" name='ville' class="form-control form-control-lg" id="lgFormGroupInput">
+      </div>
+    </div>
+       <div class="form-group row">
+      <label for="lgFormGroupInput" class="col-sm-2 col-form-label col-form-label-lg">{{'Pays'|_}}</label>
+      <div class="col-sm-10">
+        <input type="text" name='pays' class="form-control form-control-lg" id="lgFormGroupInput">
+      </div>
+    </div>
+     
+      <div class="form-group row">
+      <label for="lgFormGroupInput" class="col-sm-2 col-form-label col-form-label-lg">{{'email'|_}}</label>
+      <div class="col-sm-10">
+        <input type="email" name='email' class="form-control form-control-lg" id="lgFormGroupInput">
+      </div>
+    </div>
+     
+    <div class="form-group">
+    <label for="exampleTextarea">{{"Vous souhaitez intégrer la sélection de centres TribloO? Posez-nous votre question. "|_}}</label>
+    <textarea class="form-control" id="exampleTextarea" rows="3" name="question"></textarea>
+      <button type="submit" class="btn btn-primary">Submit</button>
+
+  </div>
+  </div>
+
+  </form>
+</div>

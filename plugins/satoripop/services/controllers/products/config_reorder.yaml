@@ -1,0 +1,4 @@
+title: Products
+modelClass: satoripop\Services\Models\Product
+toolbar:
+    buttons: reorder_toolbar

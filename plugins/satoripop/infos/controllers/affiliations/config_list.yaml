@@ -1,0 +1,11 @@
+list: $/satoripop/infos/models/affiliation/columns.yaml
+modelClass: satoripop\Infos\Models\Affiliation
+title: Affiliations
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'satoripop/infos/affiliations/update/:id'

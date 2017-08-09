@@ -1,0 +1,4 @@
+title: Othertypeoftraining
+modelClass: Satoripop\Dives\Models\Othertypeofdiving
+toolbar:
+    buttons: reorder_toolbar

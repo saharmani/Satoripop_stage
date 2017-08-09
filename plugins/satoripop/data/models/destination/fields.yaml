@@ -1,0 +1,107 @@
+tabs:
+    fields:
+        title:
+            label: title
+            oc.commentPosition: ''
+            span: auto
+            required: 1
+            type: text
+            tab: Edition
+        vat:
+            label: 'Taux de TVA'
+            oc.commentPosition: ''
+            span: auto
+            required: 1
+            type: text
+            tab: Edition
+        home:
+            label: 'Afficher à la page d''accueil'
+            span: auto
+            attributes: {  }
+            type: switch
+            tab: Edition
+        Alt:
+            label: Alt(visuel)
+            oc.commentPosition: ''
+            span: auto
+            type: text
+            tab: Edition
+        area:
+            label: zone
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: auto
+            required: 1
+            type: relation
+            tab: Edition
+        car_rental_link:
+            label: 'Lien location de voiture'
+            oc.commentPosition: ''
+            span: auto
+            type: text
+            tab: Edition
+        link_find_flight:
+            label: 'Lien trouver un vol'
+            oc.commentPosition: ''
+            span: auto
+            type: text
+            tab: Edition
+        inactive:
+            label: inactif
+            span: auto
+            type: switch
+            tab: Edition
+        description:
+            label: description
+            size: ''
+            oc.commentPosition: ''
+            span: auto
+            type: textarea
+            tab: Edition
+        best_months:
+            label: 'Meilleurs mois'
+            oc.commentPosition: ''
+            span: auto
+            type: text
+            tab: Edition
+        description_of_the_fauna:
+            label: 'Description de la faune'
+            span: auto
+            oc.commentPosition: ''
+            type: text
+            tab: Edition
+        visuel:
+            label: 'Visuels (280x185)'
+            oc.commentPosition: ''
+            prompt: 'Add new item'
+            span: full
+            type: repeater
+            tab: 'Visuels visionneuse'
+            form:
+                fields:
+                    text1:
+                        label: alt
+                        oc.commentPosition: ''
+                        span: auto
+                        type: text
+                    visuel:
+                        label: Visuel
+                        oc.commentPosition: ''
+                        mode: image
+                        imageWidth: '280'
+                        imageHeight: '185'
+                        useCaption: true
+                        thumbOptions:
+                            mode: crop
+                            extension: auto
+                        span: auto
+                        type: fileupload
+        center:
+            label: Centre
+            oc.commentPosition: ''
+            nameFrom: title
+            descriptionFrom: description
+            span: auto
+            type: relation
+            tab: Centres

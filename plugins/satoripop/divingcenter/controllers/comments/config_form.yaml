@@ -1,0 +1,10 @@
+name: Comments
+form: $/satoripop/divingcenter/models/comment/fields.yaml
+modelClass: satoripop\DivingCenter\Models\Comment
+defaultRedirect: satoripop/divingcenter/comments
+create:
+    redirect: 'satoripop/divingcenter/comments/update/:id'
+    redirectClose: satoripop/divingcenter/comments
+update:
+    redirect: satoripop/divingcenter/comments
+    redirectClose: satoripop/divingcenter/comments

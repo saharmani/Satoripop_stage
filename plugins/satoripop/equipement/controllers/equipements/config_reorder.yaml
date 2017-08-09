@@ -1,0 +1,4 @@
+title: Equipements
+modelClass: satoripop\Equipement\Models\Adultmaterial
+toolbar:
+    buttons: reorder_toolbar

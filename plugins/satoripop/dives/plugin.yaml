@@ -1,0 +1,44 @@
+plugin:
+    name: 'satoripop.dives::lang.plugin.name'
+    description: 'satoripop.dives::lang.plugin.description'
+    author: Satoripop
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: plongée
+        url: satoripop/dives/typeofdive
+        icon: icon-life-ring
+        sideMenu:
+            side-menu-item:
+                label: 'Type de plongée'
+                url: satoripop/dives/typeofdive
+                icon: icon-sitemap
+            side-menu-item2:
+                label: Baptêmes
+                url: satoripop/dives/baptisms
+                icon: icon-sitemap
+            side-menu-item3:
+                label: 'Plongées Exploration'
+                url: satoripop/dives/scubadiving
+                icon: icon-sitemap
+            side-menu-item4:
+                label: 'Autre type de plongée/Non plongeurs'
+                url: satoripop/dives/othertypeoftraining
+                icon: icon-sitemap
+            side-menu-item5:
+                label: 'Type de formation'
+                url: satoripop/dives/typeoftraining
+                icon: icon-sitemap
+            side-menu-item6:
+                label: 'Niveaux de formation'
+                url: satoripop/dives/leveloftraining
+                icon: icon-sitemap
+            side-menu-item7:
+                label: Formations
+                url: satoripop/dives/training
+                icon: icon-sitemap
+            side-menu-item8:
+                label: 'Prestations annexes'
+                url: satoripop/dives/additionalservice
+                icon: icon-sitemap

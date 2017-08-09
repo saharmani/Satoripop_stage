@@ -1,0 +1,4 @@
+title: Centers
+modelClass: satoripop\DivingCenter\Models\Center
+toolbar:
+    buttons: reorder_toolbar

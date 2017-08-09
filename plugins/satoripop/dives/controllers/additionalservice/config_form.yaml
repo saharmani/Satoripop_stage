@@ -1,0 +1,10 @@
+name: Additionalservice
+form: $/satoripop/dives/models/additionalservice/fields.yaml
+modelClass: Satoripop\Dives\Models\Additionalservice
+defaultRedirect: satoripop/dives/additionalservice
+create:
+    redirect: 'satoripop/dives/additionalservice/update/:id'
+    redirectClose: satoripop/dives/additionalservice
+update:
+    redirect: satoripop/dives/additionalservice
+    redirectClose: satoripop/dives/additionalservice

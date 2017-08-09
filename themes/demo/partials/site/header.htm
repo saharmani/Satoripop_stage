@@ -1,0 +1,28 @@
+[localePicker]
+forceUrl = 0
+==
+<!-- Nav -->
+<nav id="layout-nav" class="navbar navbar-inverse navbar-fixed-top navbar-autohide" role="navigation">
+    <div class="container">
+      
+       
+    <ul class="nav nav-pills">
+                <li class="{% if this.page.id == 'home' %} active {% endif %}"><a href="{{ 'home'|page }}">Home</a></li>
+                <li class="{% if this.page.id == 'centers' %} active {% endif %}"><a href="{{ 'centers'|page }}">{{'Centers'|_}}</a></li>
+                <li class="{% if this.page.id == 'login' %} active {% endif %}"><a href="{{ 'login'|page }}">
+
+                    {% if not user  %}
+                        Login
+                    {% else %}
+                        My profile
+                    {% endif %}
+                </a></li>
+                {% if user %}
+                    <li><a data-request="onLogout" data-request-data="redirect: '/'">
+{{'Déconnexion'|_}}</a></li>
+                {% endif %}
+                <li>    {% component "localePicker" %}  </li>
+</ul>
+ 
+    </div>
+</nav>

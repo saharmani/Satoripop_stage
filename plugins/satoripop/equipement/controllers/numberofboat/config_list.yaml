@@ -1,0 +1,11 @@
+list: $/satoripop/equipement/models/numberofboat/columns.yaml
+modelClass: satoripop\Equipement\Models\Numberofboat
+title: Numberofboat
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'satoripop/equipement/numberofboat/update/:id'

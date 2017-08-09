@@ -1,0 +1,108 @@
+<div class="container">
+
+
+  <form data-request="onSave">
+<h1> {{'Demande de réservation chez'|_}}   </h1>
+
+    <input type="hidden" name="user_id" value="{{ user.id}}"/>
+    <div class="form-group row">
+      <label for="lgFormGroupInput" class="col-sm-2 col-form-label col-form-label-lg"> {{ 'Nom'|_ }} </label>
+      <div class="col-sm-10">
+        <input type="text" name='nom' class="form-control form-control-lg" id="lgFormGroupInput" value= "{{ user.name }}">
+      </div>
+    </div>
+     <div class="form-group row">
+      <label for="lgFormGroupInput" class="col-sm-2 col-form-label col-form-label-lg"> {{'Prenom'|_}} </label>
+      <div class="col-sm-10">
+        <input type="text" name='prenom' class="form-control form-control-lg" id="lgFormGroupInput" placeholder="your last name">
+      </div>
+    </div>
+     <div class="form-group row">
+      <label for="lgFormGroupInput" class="col-sm-2 col-form-label col-form-label-lg">{{'Email'|_}}</label>
+      <div class="col-sm-10">
+        <input type="email" name='email' class="form-control form-control-lg" id="lgFormGroupInput" value= "{{ user.email }}">
+      </div>
+    </div>
+     
+
+ <div class="form-group row">
+      <label for="lgFormGroupInput" class="col-sm-2 col-form-label col-form-label-lg">{{'Niveau'|_}}</label>
+      <div class="col-sm-10">
+<select class="form-control form-control-lg" name="niveau">
+<option value="niveau 1"> niveau 1 </option>
+<option value="niveau 2"> niveau 2 </option>
+<option value="niveau 3"> niveau 3 </option>
+</select>    
+  </div>
+    </div>
+     <div class="form-group row">
+      <label for="lgFormGroupInput" class="col-sm-2 col-form-label col-form-label-lg">{{'Adulte/Enfant'|_}}</label>
+      <div class="col-sm-10">
+<select class="form-control form-control-lg" name="age">
+  <option value="adulte">{{'Adulte'|_}}</option>
+ <option value="enfant">{{'Enfant'|_}}</option>
+</select>    
+  </div>
+    </div>
+
+    <hr>
+    <div class="form-group row">
+      <label for="lgFormGroupInput" class="col-sm-2 col-form-label col-form-label-lg"> {{'Veut faire'|_}} *</label>
+      <div class="col-sm-10">
+<select class="form-control form-control-lg" name="todo">
+  <option value="formation">{{'formation'|_}}</option>
+ <option value="stage">{{'stage'|_}}</option>
+  <option  value="Baptêmes et formations initales" >{{'Baptêmes et formations initales'|_}}</option>
+</select>    
+  </div>
+    </div>
+    <div class="form-group row">
+      <label for="lgFormGroupInput" class="col-sm-2 col-form-label col-form-label-lg">{{'type'|_}} * </label>
+      <div class="col-sm-10">
+<select class="form-control form-control-lg">
+
+</select>    
+  </div>
+    </div>
+    <div class="form-group row">
+  <label for="example-date-input" class="col-2 col-form-label">{{'Date souhaitée'|_}} : *</label>
+  <div class="col-10">
+    <input class="form-control" type="date" id="example-date-input"  name="date">
+  </div>
+</div>
+<div class="form-group row">
+      <label for="lgFormGroupInput" class="col-sm-2 col-form-label col-form-label-lg" >{{'Préférence '|_}}*</label>
+      <div class="col-sm-10">
+<select class="form-control form-control-lg" name="preference">
+    <option value="peu importe">{{"peu importe"|_}}</option>
+ <option value="le matin" >{{"le matin"|_}}</option>
+  <option value="l'aprés-midi">{{"l'aprés-midi"|_}}</option>
+
+</select>    
+  </div>
+    </div>
+
+    <div class="form-group checkbox-field span-left is-required">
+        <div class="checkbox custom-checkbox">
+            <input  value="1" type="checkbox"  name="flexible">
+            <label >{{"Flexible + ou - 2 jours"|_}}</label>
+            
+        </div>
+    </div>
+    <div class="form-group checkbox-field span-left is-required">
+        <div class="checkbox custom-checkbox">
+            <input  value="1" type="checkbox"  name="matriel">
+            <label >{{"J'aurai besoin de louer du matériel au centre"|_}}
+ </label>
+            
+        </div>
+    </div>
+    <div class="form-group">
+    <label for="exampleTextarea">{{"Laissez un commentaire au centre de plongée"|_}}</label>
+    <textarea class="form-control" id="exampleTextarea" rows="3" name="commentaire"></textarea>
+      <button type="submit" class="btn btn-primary">Submit</button>
+
+  </div>
+
+  </form>
+</div>

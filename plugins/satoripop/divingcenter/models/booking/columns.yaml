@@ -1,0 +1,44 @@
+columns:
+    id:
+        label: id
+        type: number
+        searchable: true
+        sortable: true
+    nom:
+        label: nom
+        type: text
+        searchable: true
+        sortable: true
+    prenom:
+        label: prenom
+        type: text
+        searchable: true
+        sortable: true
+    email:
+        label: email
+        type: text
+        searchable: true
+        sortable: true
+    date:
+        label: 'date de réservation'
+        type: date
+        searchable: true
+        sortable: true
+    center_id:
+        label: center
+        type: text
+        searchable: true
+        sortable: true
+        select: title
+        relation: center
+    status:
+        label: statut
+        type: partial
+        searchable: true
+        sortable: true
+        path: ~/plugins/satoripop/divingcenter/components/statutsform/default.htm
+    edit_button:
+        label: Edit
+        type: partial
+        cssClass: nolink
+        path: ~/plugins/satoripop/divingcenter/models/booking/_edit_column.htm

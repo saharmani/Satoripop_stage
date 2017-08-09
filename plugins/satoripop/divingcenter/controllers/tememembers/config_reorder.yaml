@@ -1,0 +1,4 @@
+title: Tememembers
+modelClass: satoripop\DivingCenter\Models\Tememember
+toolbar:
+    buttons: reorder_toolbar

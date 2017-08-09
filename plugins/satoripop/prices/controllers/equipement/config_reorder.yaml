@@ -1,0 +1,4 @@
+title: Equipement
+modelClass: satoripop\Prices\Models\Equipment
+toolbar:
+    buttons: reorder_toolbar

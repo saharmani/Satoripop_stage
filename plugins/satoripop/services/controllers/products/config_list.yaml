@@ -1,0 +1,11 @@
+list: $/satoripop/services/models/product/columns.yaml
+modelClass: satoripop\Services\Models\Product
+title: Products
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'satoripop/services/products/update/:id'

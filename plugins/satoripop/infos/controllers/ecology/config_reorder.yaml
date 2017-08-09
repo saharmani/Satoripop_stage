@@ -1,0 +1,4 @@
+title: Ecology
+modelClass: satoripop\Infos\Models\Ecology
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,4 @@
+title: Accommodations
+modelClass: satoripop\DivingCenter\Models\Accommodation
+toolbar:
+    buttons: reorder_toolbar

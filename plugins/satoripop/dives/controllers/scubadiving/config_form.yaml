@@ -1,0 +1,10 @@
+name: Scubadiving
+form: $/satoripop/dives/models/scubadiving/fields.yaml
+modelClass: Satoripop\Dives\Models\Scubadiving
+defaultRedirect: satoripop/dives/scubadiving
+create:
+    redirect: 'satoripop/dives/scubadiving/update/:id'
+    redirectClose: satoripop/dives/scubadiving
+update:
+    redirect: satoripop/dives/scubadiving
+    redirectClose: satoripop/dives/scubadiving

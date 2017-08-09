@@ -1,0 +1,10 @@
+name: Statuts
+form: $/satoripop/divingcenter/models/statut/fields.yaml
+modelClass: satoripop\DivingCenter\Models\Statut
+defaultRedirect: satoripop/divingcenter/statuts
+create:
+    redirect: 'satoripop/divingcenter/statuts/update/:id'
+    redirectClose: satoripop/divingcenter/statuts
+update:
+    redirect: satoripop/divingcenter/statuts
+    redirectClose: satoripop/divingcenter/statuts

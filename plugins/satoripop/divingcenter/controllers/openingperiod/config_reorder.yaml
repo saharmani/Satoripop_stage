@@ -1,0 +1,4 @@
+title: Openingperiod
+modelClass: satoripop\DivingCenter\Models\Openingperiod
+toolbar:
+    buttons: reorder_toolbar

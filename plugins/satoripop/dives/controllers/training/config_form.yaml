@@ -1,0 +1,10 @@
+name: Training
+form: $/satoripop/dives/models/training/fields.yaml
+modelClass: Satoripop\Dives\Models\Training
+defaultRedirect: satoripop/dives/training
+create:
+    redirect: 'satoripop/dives/training/update/:id'
+    redirectClose: satoripop/dives/training
+update:
+    redirect: satoripop/dives/training
+    redirectClose: satoripop/dives/training

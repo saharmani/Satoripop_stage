@@ -1,0 +1,82 @@
+title = "center"
+url = "/centers/:slug"
+layout = "default"
+is_hidden = 0
+show_menu = 0
+
+[viewBag]
+localeUrl[en] = "/center"
+
+[builderDetails]
+modelClass = "satoripop\DivingCenter\Models\Center"
+identifierValue = "{{ :slug }}"
+modelKeyColumn = "slug"
+displayColumn = "title"
+notFoundMessage = "Record not found"
+
+[builderList]
+modelClass = "satoripop\DivingCenter\Models\Center"
+scope = "-"
+displayColumn = "title"
+noRecordsMessage = "No records found"
+detailsPage = "reservation"
+detailsKeyColumn = "id"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+{% set record = builderDetails.record %}
+{% set displayColumn = builderDetails.displayColumn %}
+{% set notFoundMessage = builderDetails.notFoundMessage %}
+{% set detailsPage = builderList.detailsPage %}
+{% set detailsKeyColumn = builderList.detailsKeyColumn %}
+{% set detailsUrlParameter = builderList.detailsUrlParameter %}
+
+<style>
+       #maps {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+<div class="container">
+{% if record %}
+   
+ <h1>  {{ record.title }} </h1> <br>
+<ul class="gallery clearfix">
+    {% for image in record.CGV %}
+        <li>
+            <a href="{{ image.path}}">
+                <img src="{{ image.thumb(100,100, {'mode':'crop'}) }}">
+            </a>
+        </li>  
+    {% endfor %}
+</ul>
+
+  <p><a class="btn btn-primary btn-lg" href="{{ detailsPage|page({ (detailsUrlParameter): attribute(record, detailsKeyColumn) }) }}" role="button">Pré-réserver dans ce centre</a></p>
+
+
+    <div id="maps"></div>
+
+    <script>
+      function initMap() {
+       
+        var uluru = {lat: {{  record.latitude  }} , lng: {{  record.longitude  }} };
+        var map = new google.maps.Map(document.getElementById('maps'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvJ9leWvOp5UuXz3x1G4kfvXmRbV8sgKY&callback=initMap">
+    </script>  
+
+
+{% else %}
+    {{ notFoundMessage }}
+{% endif %}
+</div>

@@ -1,0 +1,11 @@
+fields:
+    longutide:
+        label: Longutide
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    latitude:
+        label: Latitude
+        span: auto
+        oc.commentPosition: ''
+        type: text

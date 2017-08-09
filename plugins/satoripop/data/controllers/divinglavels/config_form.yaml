@@ -1,0 +1,10 @@
+name: Divinglavels
+form: $/satoripop/data/models/divinglavel/fields.yaml
+modelClass: satoripop\Data\Models\Divinglavel
+defaultRedirect: satoripop/data/divinglavels
+create:
+    redirect: 'satoripop/data/divinglavels/update/:id'
+    redirectClose: satoripop/data/divinglavels
+update:
+    redirect: satoripop/data/divinglavels
+    redirectClose: satoripop/data/divinglavels

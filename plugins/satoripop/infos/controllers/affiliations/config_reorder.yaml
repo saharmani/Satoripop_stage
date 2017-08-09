@@ -1,0 +1,4 @@
+title: Affiliations
+modelClass: satoripop\Infos\Models\Affiliation
+toolbar:
+    buttons: reorder_toolbar

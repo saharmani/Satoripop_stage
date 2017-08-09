@@ -1,0 +1,10 @@
+name: Paymentmethod
+form: $/satoripop/infos/models/paymentmethod/fields.yaml
+modelClass: satoripop\Infos\Models\Paymentmethod
+defaultRedirect: satoripop/infos/paymentmethod
+create:
+    redirect: 'satoripop/infos/paymentmethod/update/:id'
+    redirectClose: satoripop/infos/paymentmethod
+update:
+    redirect: satoripop/infos/paymentmethod
+    redirectClose: satoripop/infos/paymentmethod

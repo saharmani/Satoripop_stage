@@ -1,0 +1,11 @@
+list: $/satoripop/services/models/restoration/columns.yaml
+modelClass: satoripop\Services\Models\Restoration
+title: Restoration
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'satoripop/services/restoration/update/:id'

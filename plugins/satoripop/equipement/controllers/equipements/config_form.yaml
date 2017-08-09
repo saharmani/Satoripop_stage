@@ -1,0 +1,10 @@
+name: Equipements
+form: $/satoripop/equipement/models/adultmaterial/fields.yaml
+modelClass: satoripop\Equipement\Models\Adultmaterial
+defaultRedirect: satoripop/equipement/equipements
+create:
+    redirect: 'satoripop/equipement/equipements/update/:id'
+    redirectClose: satoripop/equipement/equipements
+update:
+    redirect: satoripop/equipement/equipements
+    redirectClose: satoripop/equipement/equipements

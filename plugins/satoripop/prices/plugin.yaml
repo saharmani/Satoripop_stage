@@ -1,0 +1,6 @@
+plugin:
+    name: 'satoripop.prices::lang.plugin.name'
+    description: 'satoripop.prices::lang.plugin.description'
+    author: satoripop
+    icon: oc-icon-money
+    homepage: ''

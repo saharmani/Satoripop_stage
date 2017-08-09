@@ -1,0 +1,4 @@
+title: Comments
+modelClass: satoripop\DivingCenter\Models\Comment
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,68 @@
+fields:
+    nom:
+        label: nom
+        oc.commentPosition: ''
+        span: auto
+        disabled: 1
+        hidden: 0
+        type: text
+    status:
+        label: statut
+        oc.commentPosition: ''
+        options:
+            'Accepté avec réserve': 'Accepté avec réserve'
+            Accepté: Accepté
+            Refusé: Refusé
+            Nouveau: Nouveau
+        span: auto
+        type: dropdown
+    prenom:
+        label: prenom
+        oc.commentPosition: ''
+        span: left
+        disabled: 1
+        hidden: 0
+        type: text
+    center_id:
+        label: Center
+        oc.commentPosition: ''
+        span: left
+        disabled: 1
+        hidden: 0
+        type: text
+    email:
+        label: email
+        oc.commentPosition: ''
+        span: left
+        disabled: 1
+        hidden: 0
+        type: text
+    niveau:
+        label: niveau
+        oc.commentPosition: ''
+        span: left
+        disabled: 1
+        hidden: 0
+        type: text
+    age:
+        label: Adulte/Enfant
+        oc.commentPosition: ''
+        span: left
+        disabled: 1
+        hidden: 0
+        type: text
+    todo:
+        label: 'Veut faire *'
+        oc.commentPosition: ''
+        span: left
+        disabled: 1
+        hidden: 0
+        type: text
+    date:
+        label: 'Date souhaitée : *'
+        oc.commentPosition: ''
+        span: left
+        hidden: 0
+        disabled: 1
+        type: text
+   

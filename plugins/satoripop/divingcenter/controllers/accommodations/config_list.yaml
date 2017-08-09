@@ -1,0 +1,11 @@
+list: $/satoripop/divingcenter/models/accommodation/columns.yaml
+modelClass: satoripop\DivingCenter\Models\Accommodation
+title: Accommodations
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'satoripop/divingcenter/accommodations/update/:id'

@@ -1,0 +1,4 @@
+title: Numberofboat
+modelClass: satoripop\Equipement\Models\Numberofboat
+toolbar:
+    buttons: reorder_toolbar

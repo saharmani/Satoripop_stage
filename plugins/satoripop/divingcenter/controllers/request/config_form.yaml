@@ -1,0 +1,10 @@
+name: Request
+form: $/satoripop/divingcenter/models/request/fields.yaml
+modelClass: satoripop\DivingCenter\Models\Request
+defaultRedirect: satoripop/divingcenter/request
+create:
+    redirect: 'satoripop/divingcenter/request/update/:id'
+    redirectClose: satoripop/divingcenter/request
+update:
+    redirect: satoripop/divingcenter/request
+    redirectClose: satoripop/divingcenter/request

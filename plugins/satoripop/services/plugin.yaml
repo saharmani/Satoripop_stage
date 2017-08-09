@@ -1,0 +1,32 @@
+plugin:
+    name: 'satoripop.services::lang.plugin.name'
+    description: 'satoripop.services::lang.plugin.description'
+    author: satoripop
+    icon: oc-icon-coffee
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: service
+        url: satoripop/services/transfers
+        icon: icon-cab
+        sideMenu:
+            side-menu-item:
+                label: Transfert
+                url: satoripop/services/transfers
+                icon: icon-angle-double-down
+            side-menu-item2:
+                label: Restauration
+                url: satoripop/services/restoration
+                icon: icon-adjust
+            side-menu-item3:
+                label: 'Photo - Vidéo'
+                url: satoripop/services/photovideo
+                icon: icon-video-camera
+            side-menu-item4:
+                label: 'Autres services'
+                url: satoripop/services/otherservices
+                icon: icon-sitemap
+            side-menu-item5:
+                label: 'Produits dérivés'
+                url: satoripop/services/products
+                icon: icon-sitemap

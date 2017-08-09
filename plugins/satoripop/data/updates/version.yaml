@@ -1,0 +1,30 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table satoripop_data_areas'
+    - builder_table_create_satoripop_data_areas.php
+1.0.3:
+    - 'Created table satoripop_data_destinations'
+    - builder_table_create_satoripop_data_destinations.php
+1.0.4:
+    - 'Created table satoripop_data_divinglevels'
+    - builder_table_create_satoripop_data_divinglevels.php
+1.0.6:
+    - 'Created table satoripop_data_introductions'
+    - builder_table_create_satoripop_data_introductions.php
+1.0.11:
+    - 'Created table satoripop_data_destinations_areas'
+    - builder_table_create_satoripop_data_destinations_areas.php
+1.0.17:
+    - 'Created table satoripop_data_watertemperatures'
+    - builder_table_create_satoripop_data_watertemperatures.php
+1.0.18:
+    - 'Created table satoripop_data_airtemperature'
+    - builder_table_create_satoripop_data_airtemperature.php
+1.0.23:
+    - 'Created table satoripop_data_destinations'
+    - builder_table_create_satoripop_data_destinations_2.php
+1.0.24:
+    - 'Created table satoripop_data_centers_destinations'
+    - builder_table_create_satoripop_data_centers_destinations.php
+

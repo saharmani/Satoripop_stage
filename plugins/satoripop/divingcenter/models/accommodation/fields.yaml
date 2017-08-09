@@ -1,0 +1,36 @@
+fields:
+    title:
+        label: Name
+        oc.commentPosition: ''
+        span: full
+        type: text
+    description:
+        label: Description
+        size: ''
+        oc.commentPosition: ''
+        span: full
+        type: textarea
+    center:
+        label: Center
+        oc.commentPosition: ''
+        nameFrom: title
+        descriptionFrom: description
+        span: auto
+        type: relation
+    Visuel:
+        label: 'Visuel (107x107)'
+        oc.commentPosition: ''
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        imageWidth: '107'
+        imageHeight: '107'
+        type: fileupload
+    Link:
+        label: Lien
+        span: auto
+        oc.commentPosition: ''
+        type: text

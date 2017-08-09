@@ -1,0 +1,4 @@
+title: Boatcapacity
+modelClass: satoripop\Equipement\Models\Boatcapacity
+toolbar:
+    buttons: reorder_toolbar

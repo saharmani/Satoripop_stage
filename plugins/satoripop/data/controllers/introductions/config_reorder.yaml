@@ -1,0 +1,4 @@
+title: Introductions
+modelClass: satoripop\Data\Models\Introduction
+toolbar:
+    buttons: reorder_toolbar

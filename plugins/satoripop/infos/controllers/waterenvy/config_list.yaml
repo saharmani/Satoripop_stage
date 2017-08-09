@@ -1,0 +1,11 @@
+list: $/satoripop/infos/models/waterenvy/columns.yaml
+modelClass: satoripop\Infos\Models\Waterenvy
+title: Waterenvy
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'satoripop/infos/waterenvy/update/:id'

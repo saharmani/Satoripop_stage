@@ -1,0 +1,4 @@
+title: Comfort
+modelClass: satoripop\Infos\Models\Comfort
+toolbar:
+    buttons: reorder_toolbar

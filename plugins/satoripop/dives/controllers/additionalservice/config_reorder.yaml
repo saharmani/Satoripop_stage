@@ -1,0 +1,4 @@
+title: Additionalservice
+modelClass: Satoripop\Dives\Models\Additionalservice
+toolbar:
+    buttons: reorder_toolbar

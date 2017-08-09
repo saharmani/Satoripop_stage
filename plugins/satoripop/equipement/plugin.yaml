@@ -1,0 +1,44 @@
+plugin:
+    name: 'satoripop.equipement::lang.plugin.name'
+    description: 'satoripop.equipement::lang.plugin.description'
+    author: satoripop
+    icon: oc-icon-gear
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: equipment
+        url: satoripop/equipement/equipements
+        icon: icon-cogs
+        sideMenu:
+            side-menu-item2:
+                label: 'boat capacity'
+                url: satoripop/equipement/boatcapacity
+                icon: icon-sheqel
+            side-menu-item3:
+                label: 'boat equipment'
+                url: satoripop/equipement/boatequipments
+                icon: icon-check-circle-o
+            side-menu-item4:
+                label: 'child equipment'
+                url: satoripop/equipement/childequipment
+                icon: icon-child
+            side-menu-item5:
+                label: 'number of boat'
+                url: satoripop/equipement/numberofboat
+                icon: icon-sitemap
+            side-menu-item6:
+                label: 'type of boat'
+                url: satoripop/equipement/typeofboat
+                icon: icon-sitemap
+            side-menu-item7:
+                label: 'inflation station'
+                url: satoripop/equipement/inflationstations
+                icon: icon-star
+            side-menu-item:
+                label: 'other material'
+                url: satoripop/equipement/othermaterial
+                icon: icon-sitemap
+            side-menu-item8:
+                label: 'Matériel complet adulte'
+                url: satoripop/equipement/adultmaterials
+                icon: icon-male

@@ -1,0 +1,18 @@
+fields:
+    title:
+        label: title
+        span: auto
+        oc.commentPosition: ''
+        type: text
+    icone:
+        label: flag
+        span: auto
+        oc.commentPosition: ''
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        imageWidth: '35'
+        imageHeight: '35'
+        type: fileupload

@@ -1,0 +1,10 @@
+name: Childequipment
+form: $/satoripop/equipement/models/childequipment/fields.yaml
+modelClass: satoripop\Equipement\Models\Childequipment
+defaultRedirect: satoripop/equipement/childequipment
+create:
+    redirect: 'satoripop/equipement/childequipment/update/:id'
+    redirectClose: satoripop/equipement/childequipment
+update:
+    redirect: satoripop/equipement/childequipment
+    redirectClose: satoripop/equipement/childequipment

@@ -1,0 +1,4 @@
+title: Booking
+modelClass: satoripop\DivingCenter\Models\Booking
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,4 @@
+title: Typeofboat
+modelClass: satoripop\Equipement\Models\Typeofboat
+toolbar:
+    buttons: reorder_toolbar

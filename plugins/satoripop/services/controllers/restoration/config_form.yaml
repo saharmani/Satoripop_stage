@@ -1,0 +1,10 @@
+name: Restoration
+form: $/satoripop/services/models/restoration/fields.yaml
+modelClass: satoripop\Services\Models\Restoration
+defaultRedirect: satoripop/services/restoration
+create:
+    redirect: 'satoripop/services/restoration/update/:id'
+    redirectClose: satoripop/services/restoration
+update:
+    redirect: satoripop/services/restoration
+    redirectClose: satoripop/services/restoration

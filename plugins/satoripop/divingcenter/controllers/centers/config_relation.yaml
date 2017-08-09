@@ -1,0 +1,313 @@
+destination:
+  label: Destination
+  view:
+    form: $/satoripop/data/models/destination/fields.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    form: $/satoripop/data/models/destination/fields.yaml
+    list: $/satoripop/data/models/destination/columns.yaml
+    showCheckboxes: true
+
+theme:
+  label: Théme
+  view:
+    list: $/satoripop/divingcenter/models/theme/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/divingcenter/models/theme/columns.yaml
+    form: $/satoripop/divingcenter/models/theme/fields.yaml
+    showCheckboxes: true
+
+accommodation:
+  label: Hébergement
+  view:
+    list: $/satoripop/divingcenter/models/accommodation/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/divingcenter/models/accommodation/columns.yaml
+    form: $/satoripop/divingcenter/models/accommodation/fields.yaml
+    showCheckboxes: true
+
+distancetothesea:
+  label: Distance a la mer 
+  view:
+    form: $/satoripop/infos/models/distancetothesea/fields.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    form: $/satoripop/infos/models/distancetothesea/fields.yaml
+    list: $/satoripop/infos/models/distancetothesea/columns.yaml
+    showCheckboxes: true
+
+accommodationcapacity:
+  label: Capacité d'accueil 
+  view:
+    form: $/satoripop/infos/models/accommodationcapacity/fields.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    form: $/satoripop/infos/models/accommodationcapacity/fields.yaml
+    list: $/satoripop/infos/models/accommodationcapacity/columns.yaml
+    showCheckboxes: true
+
+spokenlanguage:
+  label: Langues parlées
+  view:
+    list: $/satoripop/infos/models/spokenlanguages/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/infos/models/spokenlanguages/columns.yaml
+    form: $/satoripop/infos/models/spokenlanguages/fields.yaml
+    showCheckboxes: true
+
+affiliation:
+  label: Affiliations
+  view:
+    list: $/satoripop/infos/models/Affiliation/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/infos/models/Affiliation/columns.yaml
+    form: $/satoripop/infos/models/Affiliation/fields.yaml
+    showCheckboxes: true
+
+paymentmethod:
+  label: Méthodes de paiements
+  view:
+    list: $/satoripop/infos/models/paymentmethod/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/infos/models/paymentmethod/columns.yaml
+    form: $/satoripop/infos/models/paymentmethod/fields.yaml
+    showCheckboxes: true
+
+
+
+typeofdive:
+  label: Types de plongée
+  view:
+    list: $/satoripop/dives/models/Typeofdive/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/dives/models/Typeofdive/columns.yaml
+    form: $/satoripop/dives/models/Typeofdive/fields.yaml
+    showCheckboxes: true
+
+typeoftraining:
+  label: Type de formations
+  view:
+    list: $/satoripop/dives/models/Typeoftraining/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/dives/models/Typeoftraining/columns.yaml
+    form: $/satoripop/dives/models/Typeoftraining/fields.yaml
+    showCheckboxes: true
+
+scubadiving:
+  label: Plongée d'exploration
+  view:
+    list: $/satoripop/dives/models/Scubadiving/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/dives/models/Scubadiving/columns.yaml
+    form: $/satoripop/dives/models/Scubadiving/fields.yaml
+    showCheckboxes: true
+
+othertypeofdiving:
+  label: Autre plongées
+  view:
+    list: $/satoripop/dives/models/Othertypeofdiving/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/dives/models/Othertypeofdiving/columns.yaml
+    form: $/satoripop/dives/models/Othertypeofdiving/fields.yaml
+    showCheckboxes: true
+
+additionalservices:
+  label: Prestations annexes
+  view:
+    list: $/satoripop/dives/models/Additionalservice/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/dives/models/Additionalservice/columns.yaml
+    form: $/satoripop/dives/models/Additionalservice/fields.yaml
+    showCheckboxes: true
+
+training:
+  label: Formations
+  view:
+    list: $/satoripop/dives/models/Training/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/dives/models/Training/columns.yaml
+    form: $/satoripop/dives/models/Training/fields.yaml
+    showCheckboxes: true
+
+baptisms:
+  label: Baptêmes de plongée
+  view:
+    list: $/satoripop/dives/models/Baptisms/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/dives/models/Baptisms/columns.yaml
+    form: $/satoripop/dives/models/Baptisms/fields.yaml
+    showCheckboxes: true
+
+
+
+numberofboat:
+  label: Nombre d'embarcation 
+  view:
+    form: $/satoripop/equipement/models/Numberofboat/fields.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    form: $/satoripop/equipement/models/Numberofboat/fields.yaml
+    list: $/satoripop/equipement/models/Numberofboat/columns.yaml
+    showCheckboxes: true   
+    
+boatcapacity:
+  label: Capacité des embarcations 
+  view:
+    form: $/satoripop/equipement/models/Boatcapacity/fields.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    form: $/satoripop/equipement/models/Boatcapacity/fields.yaml
+    list: $/satoripop/equipement/models/Boatcapacity/columns.yaml
+    showCheckboxes: true  
+
+childequipment:
+  label: Equipement pour enfant
+  view:
+    list: $/satoripop/equipement/models/Childequipment/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/equipement/models/Childequipment/columns.yaml
+    form: $/satoripop/equipement/models/Childequipment/fields.yaml
+    showCheckboxes: true
+
+adultmaterial:
+  label: Equipement pour adulte
+  view:
+    list: $/satoripop/equipement/models/Adultmaterial/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/equipement/models/Adultmaterial/columns.yaml
+    form: $/satoripop/equipement/models/Adultmaterial/fields.yaml
+    showCheckboxes: true 
+    
+typeofboat:
+  label: Type d'embarcation
+  view:
+    list: $/satoripop/equipement/models/Typeofboat/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/equipement/models/Typeofboat/columns.yaml
+    form: $/satoripop/equipement/models/Typeofboat/fields.yaml
+    showCheckboxes: true 
+
+boatequipment:
+  label: Matériel des embarcations
+  view:
+    list: $/satoripop/equipement/models/Boatequipment/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/equipement/models/Boatequipment/columns.yaml
+    form: $/satoripop/equipement/models/Boatequipment/fields.yaml
+    showCheckboxes: true                     
+
+transfer:
+  label: Transfert
+  view:
+    list: $/satoripop/services/models/Transfer/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/services/models/Transfer/columns.yaml
+    form: $/satoripop/services/models/Transfer/fields.yaml
+    showCheckboxes: true  
+
+restoration:
+  label: Restaurations
+  view:
+    list: $/satoripop/services/models/Restoration/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/services/models/Restoration/columns.yaml
+    form: $/satoripop/services/models/Restoration/fields.yaml
+    showCheckboxes: true   
+    
+photovideo:
+  label: Photo / video
+  view:
+    list: $/satoripop/services/models/Photovideo/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/services/models/Photovideo/columns.yaml
+    form: $/satoripop/services/models/Photovideo/fields.yaml
+    showCheckboxes: true
+
+otherservices:
+  label: Autre
+  view:
+    list: $/satoripop/services/models/Otherservice/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/services/models/Otherservice/columns.yaml
+    form: $/satoripop/services/models/Otherservice/fields.yaml
+    showCheckboxes: true  
+    
+
+products:
+  label: Produits dérivés
+  view:
+    list: $/satoripop/services/models/Product/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/services/models/Product/columns.yaml
+    form: $/satoripop/services/models/Product/fields.yaml
+    showCheckboxes: true                                       
+
+airenvy:
+  label: Envie d'air
+  view:
+    list: $/satoripop/infos/models/Airenvy/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/infos/models/Airenvy/columns.yaml
+    form: $/satoripop/infos/models/Airenvy/fields.yaml
+    showCheckboxes: true  
+    
+
+waterenvy:
+  label: Envie d'eau
+  view:
+    list: $/satoripop/infos/models/Waterenvy/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/infos/models/Waterenvy/columns.yaml
+    form: $/satoripop/infos/models/Waterenvy/fields.yaml
+    showCheckboxes: true 
+
+confort:
+  label: Confort
+  view:
+    list: $/satoripop/infos/models/Comfort/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/infos/models/Comfort/columns.yaml
+    form: $/satoripop/infos/models/Comfort/fields.yaml
+    showCheckboxes: true 
+
+ecology:
+  label: Ecologie
+  view:
+    list: $/satoripop/infos/models/Ecology/columns.yaml
+    toolbarButtons: create|delete|add
+  manage:
+    list: $/satoripop/infos/models/Ecology/columns.yaml
+    form: $/satoripop/infos/models/Ecology/fields.yaml
+    showCheckboxes: true  
+
+
+
+
+
+
+
+  

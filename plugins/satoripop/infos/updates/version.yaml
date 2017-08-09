@@ -1,0 +1,32 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table satoripop_infos_affiliations'
+    - builder_table_create_satoripop_infos_affiliations.php
+1.0.3:
+    - 'Created table satoripop_infos_distancetothesea'
+    - builder_table_create_satoripop_infos_distancetothesea.php
+1.0.4:
+    - 'Created table satoripop_infos_spokenlanguages'
+    - builder_table_create_satoripop_infos_spokenlanguages.php
+1.0.5:
+    - 'Created table satoripop_infos_comfort'
+    - builder_table_create_satoripop_infos_comfort.php
+1.0.6:
+    - 'Created table satoripop_infos_airenvy'
+    - builder_table_create_satoripop_infos_airenvy.php
+1.0.7:
+    - 'Created table satoripop_infos_waterenvy'
+    - builder_table_create_satoripop_infos_waterenvy.php
+1.0.8:
+    - 'Created table satoripop_infos_accommodationcapacity'
+    - builder_table_create_satoripop_infos_accommodationcapacity.php
+1.0.9:
+    - 'Created table satoripop_infos_ecology'
+    - builder_table_create_satoripop_infos_ecology.php
+1.0.10:
+    - 'Created table satoripop_infos_paymentmethods'
+    - builder_table_create_satoripop_infos_paymentmethods.php
+1.0.21:
+    - 'Created table satoripop_infos_affiliations'
+    - builder_table_create_satoripop_infos_affiliations_2.php

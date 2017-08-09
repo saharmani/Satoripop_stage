@@ -1,0 +1,10 @@
+name: Areas
+form: $/satoripop/data/models/area/fields.yaml
+modelClass: satoripop\Data\Models\Area
+defaultRedirect: satoripop/data/areas
+create:
+    redirect: 'satoripop/data/areas/update/:id'
+    redirectClose: satoripop/data/areas
+update:
+    redirect: satoripop/data/areas
+    redirectClose: satoripop/data/areas

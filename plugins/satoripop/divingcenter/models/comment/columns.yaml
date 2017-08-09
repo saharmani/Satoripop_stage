@@ -1,0 +1,12 @@
+columns:
+    id:
+        label: id
+        type: number
+        searchable: true
+        sortable: true
+    description:
+        label: description
+        type: text
+    published:
+        label: published
+        type: switch

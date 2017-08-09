@@ -1,0 +1,10 @@
+name: Leveloftraining
+form: $/satoripop/dives/models/levelsoftraining/fields.yaml
+modelClass: Satoripop\Dives\Models\Levelsoftraining
+defaultRedirect: satoripop/dives/leveloftraining
+create:
+    redirect: 'satoripop/dives/leveloftraining/update/:id'
+    redirectClose: satoripop/dives/leveloftraining
+update:
+    redirect: satoripop/dives/leveloftraining
+    redirectClose: satoripop/dives/leveloftraining

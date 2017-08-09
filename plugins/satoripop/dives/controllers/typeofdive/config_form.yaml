@@ -1,0 +1,10 @@
+name: Typeofdive
+form: $/satoripop/dives/models/typeofdive/fields.yaml
+modelClass: Satoripop\Dives\Models\Typeofdive
+defaultRedirect: satoripop/dives/typeofdive
+create:
+    redirect: 'satoripop/dives/typeofdive/update/:id'
+    redirectClose: satoripop/dives/typeofdive
+update:
+    redirect: satoripop/dives/typeofdive
+    redirectClose: satoripop/dives/typeofdive

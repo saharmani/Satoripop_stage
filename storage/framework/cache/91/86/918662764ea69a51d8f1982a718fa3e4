@@ -1,0 +1,49 @@
+1502257305a:1:{s:12:"register.htm";a:10:{s:8:"fileName";s:12:"register.htm";s:7:"content";s:508:"title = "register"
+url = "/register"
+layout = "default"
+is_hidden = 0
+
+[account]
+redirect = "home"
+paramCode = "code"
+forceSecure = 0
+==
+{% if not user %}
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <h3>Register</h3>
+            {% partial account ~ '::register' %}
+        </div>
+
+    </div>
+
+{% else %}
+
+    {% partial account ~ '::activation_check' %}
+
+    {% partial account ~ '::update' %}
+
+    {% partial account ~ '::deactivate_link' %}
+
+{% endif %}";s:5:"mtime";i:1501143691;s:6:"markup";s:361:"{% if not user %}
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <h3>Register</h3>
+            {% partial account ~ '::register' %}
+        </div>
+
+    </div>
+
+{% else %}
+
+    {% partial account ~ '::activation_check' %}
+
+    {% partial account ~ '::update' %}
+
+    {% partial account ~ '::deactivate_link' %}
+
+{% endif %}";s:4:"code";N;s:5:"title";s:8:"register";s:3:"url";s:9:"/register";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:7:"account";a:3:{s:8:"redirect";s:4:"home";s:9:"paramCode";s:4:"code";s:11:"forceSecure";s:1:"0";}}}

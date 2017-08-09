@@ -1,0 +1,10 @@
+name: Baptisms
+form: $/satoripop/dives/models/baptisms/fields.yaml
+modelClass: Satoripop\Dives\Models\Baptisms
+defaultRedirect: satoripop/dives/baptisms
+create:
+    redirect: 'satoripop/dives/baptisms/update/:id'
+    redirectClose: satoripop/dives/baptisms
+update:
+    redirect: satoripop/dives/baptisms
+    redirectClose: satoripop/dives/baptisms

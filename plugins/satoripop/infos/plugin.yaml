@@ -1,0 +1,48 @@
+plugin:
+    name: 'satoripop.infos::lang.plugin.name'
+    description: 'satoripop.infos::lang.plugin.description'
+    author: satoripop
+    icon: oc-icon-info
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Infos
+        url: satoripop/infos/accommodationcapacity
+        icon: icon-info-circle
+        sideMenu:
+            side-menu-item:
+                label: 'Capacité d''accueil'
+                url: satoripop/infos/accommodationcapacity
+                icon: icon-sitemap
+            side-menu-item3:
+                label: 'Envie d''air'
+                url: satoripop/infos/airenvy
+                icon: icon-sitemap
+            side-menu-item4:
+                label: Comfort
+                url: satoripop/infos/comfort
+                icon: icon-sitemap
+            side-menu-item5:
+                label: 'Distance à la mer'
+                url: satoripop/infos/distancetothesea
+                icon: icon-sitemap
+            side-menu-item6:
+                label: Ecologie
+                url: satoripop/infos/ecology
+                icon: icon-sitemap
+            side-menu-item7:
+                label: 'Méthodes de paiement'
+                url: satoripop/infos/paymentmethod
+                icon: icon-sitemap
+            side-menu-item8:
+                label: 'Langues parlées'
+                url: satoripop/infos/spokenlanguages
+                icon: icon-sitemap
+            side-menu-item9:
+                label: 'Envie d''eau'
+                url: satoripop/infos/waterenvy
+                icon: icon-sitemap
+            side-menu-item2:
+                label: Affiliations
+                url: satoripop/infos/affiliations
+                icon: icon-sitemap

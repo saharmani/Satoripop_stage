@@ -1,0 +1,10 @@
+name: Comfort
+form: $/satoripop/infos/models/comfort/fields.yaml
+modelClass: satoripop\Infos\Models\Comfort
+defaultRedirect: satoripop/infos/comfort
+create:
+    redirect: 'satoripop/infos/comfort/update/:id'
+    redirectClose: satoripop/infos/comfort
+update:
+    redirect: satoripop/infos/comfort
+    redirectClose: satoripop/infos/comfort

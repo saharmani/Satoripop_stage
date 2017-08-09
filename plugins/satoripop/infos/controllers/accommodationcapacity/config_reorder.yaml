@@ -1,0 +1,4 @@
+title: Accommodationcapacity
+modelClass: satoripop\Infos\Models\Accommodationcapacity
+toolbar:
+    buttons: reorder_toolbar

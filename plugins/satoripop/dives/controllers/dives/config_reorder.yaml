@@ -1,0 +1,4 @@
+title: Dives
+modelClass: Satoripop\Dives\Models\Typeofdive
+toolbar:
+    buttons: reorder_toolbar

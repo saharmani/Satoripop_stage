@@ -1,0 +1,48 @@
+plugin:
+    name: 'satoripop.divingcenter::lang.plugin.name'
+    description: 'satoripop.divingcenter::lang.plugin.description'
+    author: satoripop
+    icon: oc-icon-anchor
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'satoripop.divingcenter::lang.plugin.name'
+        url: satoripop/divingcenter/centers
+        icon: icon-anchor
+        sideMenu:
+            side-menu-item6:
+                label: Center
+                url: satoripop/divingcenter/centers
+                icon: icon-sitemap
+            side-menu-item:
+                label: Thèmes
+                url: satoripop/divingcenter/themes
+                icon: icon-files-o
+            side-menu-item2:
+                label: 'Membres de l''équipe'
+                url: satoripop/divingcenter/tememembers
+                icon: icon-group
+            side-menu-item3:
+                label: Hébergement
+                url: satoripop/divingcenter/accommodations
+                icon: icon-home
+            side-menu-item4:
+                label: Commentaires
+                url: satoripop/divingcenter/comments
+                icon: icon-comment
+            side-menu-item5:
+                label: 'Période d''ouverture'
+                url: satoripop/divingcenter/openingperiod
+                icon: icon-sitemap
+            side-menu-item7:
+                label: booking
+                url: satoripop/divingcenter/booking
+                icon: icon-check
+            side-menu-item8:
+                label: Demande
+                url: satoripop/divingcenter/request
+                icon: icon-plus-circle
+            side-menu-item9:
+                label: statuts
+                url: satoripop/divingcenter/statuts
+                icon: icon-sitemap

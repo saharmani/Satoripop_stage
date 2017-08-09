@@ -1,0 +1,68 @@
+fields:
+    destination:
+        label: destination
+        oc.commentPosition: ''
+        nameFrom: title
+        descriptionFrom: description
+        span: auto
+        type: relation
+    january:
+        label: janvier
+        oc.commentPosition: ''
+        span: left
+        type: text
+    february:
+        label: Février
+        oc.commentPosition: ''
+        span: left
+        type: text
+    march:
+        label: Mars
+        oc.commentPosition: ''
+        span: left
+        type: text
+    april:
+        label: avril
+        oc.commentPosition: ''
+        span: left
+        type: text
+    may:
+        label: mai
+        oc.commentPosition: ''
+        span: left
+        type: text
+    june:
+        label: juin
+        oc.commentPosition: ''
+        span: left
+        type: text
+    july:
+        label: juillet
+        oc.commentPosition: ''
+        span: left
+        type: text
+    august:
+        label: aout
+        oc.commentPosition: ''
+        span: left
+        type: text
+    september:
+        label: September
+        oc.commentPosition: ''
+        span: left
+        type: text
+    october:
+        label: October
+        oc.commentPosition: ''
+        span: left
+        type: text
+    november:
+        label: Novembre
+        oc.commentPosition: ''
+        span: left
+        type: text
+    december:
+        label: décembre
+        span: left
+        oc.commentPosition: ''
+        type: text

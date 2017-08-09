@@ -1,0 +1,10 @@
+name: Photovideo
+form: $/satoripop/services/models/photovideo/fields.yaml
+modelClass: satoripop\Services\Models\Photovideo
+defaultRedirect: satoripop/services/photovideo
+create:
+    redirect: 'satoripop/services/photovideo/update/:id'
+    redirectClose: satoripop/services/photovideo
+update:
+    redirect: satoripop/services/photovideo
+    redirectClose: satoripop/services/photovideo

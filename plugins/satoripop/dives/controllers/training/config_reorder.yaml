@@ -1,0 +1,4 @@
+title: Training
+modelClass: Satoripop\Dives\Models\Training
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,10 @@
+name: Services
+form: $/satoripop/services/models/transfer/fields.yaml
+modelClass: satoripop\Services\Models\Transfer
+defaultRedirect: satoripop/services/services
+create:
+    redirect: 'satoripop/services/services/update/:id'
+    redirectClose: satoripop/services/services
+update:
+    redirect: satoripop/services/services
+    redirectClose: satoripop/services/services

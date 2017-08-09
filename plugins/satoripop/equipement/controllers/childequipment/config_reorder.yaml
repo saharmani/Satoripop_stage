@@ -1,0 +1,4 @@
+title: Childequipment
+modelClass: satoripop\Equipement\Models\Childequipment
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,10 @@
+name: Introductions
+form: $/satoripop/data/models/introduction/fields.yaml
+modelClass: satoripop\Data\Models\Introduction
+defaultRedirect: satoripop/data/introductions
+create:
+    redirect: 'satoripop/data/introductions/update/:id'
+    redirectClose: satoripop/data/introductions
+update:
+    redirect: satoripop/data/introductions
+    redirectClose: satoripop/data/introductions

@@ -1,0 +1,10 @@
+name: Airtemperature
+form: $/satoripop/data/models/airtemperature/fields.yaml
+modelClass: satoripop\Data\Models\Airtemperature
+defaultRedirect: satoripop/data/airtemperature
+create:
+    redirect: 'satoripop/data/airtemperature/update/:id'
+    redirectClose: satoripop/data/airtemperature
+update:
+    redirect: satoripop/data/airtemperature
+    redirectClose: satoripop/data/airtemperature

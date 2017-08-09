@@ -1,0 +1,4 @@
+title: Baptisms
+modelClass: Satoripop\Dives\Models\Baptisms
+toolbar:
+    buttons: reorder_toolbar

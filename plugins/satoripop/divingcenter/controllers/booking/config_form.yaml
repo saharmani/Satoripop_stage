@@ -1,0 +1,10 @@
+name: Booking
+form: $/satoripop/divingcenter/models/booking/fields.yaml
+modelClass: satoripop\DivingCenter\Models\Booking
+defaultRedirect: satoripop/divingcenter/booking
+create:
+    redirect: 'satoripop/divingcenter/booking/update/:id'
+    redirectClose: satoripop/divingcenter/booking
+update:
+    redirect: satoripop/divingcenter/booking
+    redirectClose: satoripop/divingcenter/booking

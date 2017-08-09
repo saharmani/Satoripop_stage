@@ -1,0 +1,12 @@
+   <form>
+     <div class="form-group dropdown-field">
+        <select class="form-control custom-select mb-0 " name="status" data-request="onUpdate" >
+            <option value="Accepté"   <?php if ($record->status == "Accepté") echo "selected='selected'";?> > Accepté  </option>
+            <option value="Accepté avec réserve"
+             <?php if ($record->status == "Accepté avec réserve")echo "selected='selected'";?> >Accepté avec réserve</option>
+            <option value="Refusé"  <?php if ($record->status == "Refusé") echo "selected='selected'";?> >Refusé</option>
+            <option value="Nouveau"  <?php if ($record->status == "Nouveau") echo "selected='selected'";?> >Nouveau</option>
+            <input type="hidden" value= <?php echo $record->id ; ?> name="id" >
+        </select>
+      </div>
+   </form>

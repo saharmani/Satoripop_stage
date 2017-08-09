@@ -1,0 +1,4 @@
+title: Airtemperature
+modelClass: satoripop\Data\Models\Airtemperature
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,10 @@
+name: Tememembers
+form: $/satoripop/divingcenter/models/tememember/fields.yaml
+modelClass: satoripop\DivingCenter\Models\Tememember
+defaultRedirect: satoripop/divingcenter/tememembers
+create:
+    redirect: 'satoripop/divingcenter/tememembers/update/:id'
+    redirectClose: satoripop/divingcenter/tememembers
+update:
+    redirect: satoripop/divingcenter/tememembers
+    redirectClose: satoripop/divingcenter/tememembers

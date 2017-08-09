@@ -1,0 +1,10 @@
+name: Ecology
+form: $/satoripop/infos/models/ecology/fields.yaml
+modelClass: satoripop\Infos\Models\Ecology
+defaultRedirect: satoripop/infos/ecology
+create:
+    redirect: 'satoripop/infos/ecology/update/:id'
+    redirectClose: satoripop/infos/ecology
+update:
+    redirect: satoripop/infos/ecology
+    redirectClose: satoripop/infos/ecology

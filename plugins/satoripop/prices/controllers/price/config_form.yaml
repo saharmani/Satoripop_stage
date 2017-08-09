@@ -1,0 +1,10 @@
+name: Price
+form: $/satoripop/prices/models/price/fields.yaml
+modelClass: satoripop\Prices\Models\Price
+defaultRedirect: satoripop/prices/price
+create:
+    redirect: 'satoripop/prices/price/update/:id'
+    redirectClose: satoripop/prices/price
+update:
+    redirect: satoripop/prices/price
+    redirectClose: satoripop/prices/price

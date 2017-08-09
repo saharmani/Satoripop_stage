@@ -1,0 +1,4 @@
+title: Photovideo
+modelClass: satoripop\Services\Models\Photovideo
+toolbar:
+    buttons: reorder_toolbar

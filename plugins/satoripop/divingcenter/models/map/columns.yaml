@@ -1,0 +1,16 @@
+columns:
+    id:
+        label: di
+        type: number
+        searchable: true
+        sortable: true
+    longutide:
+        label: longutide
+        type: text
+        searchable: true
+        sortable: true
+    latitude:
+        label: latitude
+        type: text
+        searchable: true
+        sortable: true

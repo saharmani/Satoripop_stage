@@ -1,0 +1,4 @@
+title: Request
+modelClass: satoripop\DivingCenter\Models\Request
+toolbar:
+    buttons: reorder_toolbar

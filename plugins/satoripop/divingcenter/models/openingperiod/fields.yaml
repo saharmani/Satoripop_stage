@@ -1,0 +1,6 @@
+fields:
+    title:
+        label: Titre
+        span: auto
+        oc.commentPosition: ''
+        type: text

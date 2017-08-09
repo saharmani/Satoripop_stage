@@ -1,0 +1,10 @@
+name: Othertypeoftraining
+form: $/satoripop/dives/models/othertypeofdiving/fields.yaml
+modelClass: Satoripop\Dives\Models\Othertypeofdiving
+defaultRedirect: satoripop/dives/othertypeoftraining
+create:
+    redirect: 'satoripop/dives/othertypeoftraining/update/:id'
+    redirectClose: satoripop/dives/othertypeoftraining
+update:
+    redirect: satoripop/dives/othertypeoftraining
+    redirectClose: satoripop/dives/othertypeoftraining

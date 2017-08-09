@@ -1,0 +1,4 @@
+title: Services
+modelClass: satoripop\Services\Models\Transfer
+toolbar:
+    buttons: reorder_toolbar

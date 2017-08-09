@@ -1,0 +1,10 @@
+name: Spokenlanguages
+form: $/satoripop/infos/models/spokenlanguages/fields.yaml
+modelClass: satoripop\Infos\Models\Spokenlanguages
+defaultRedirect: satoripop/infos/spokenlanguages
+create:
+    redirect: 'satoripop/infos/spokenlanguages/update/:id'
+    redirectClose: satoripop/infos/spokenlanguages
+update:
+    redirect: satoripop/infos/spokenlanguages
+    redirectClose: satoripop/infos/spokenlanguages

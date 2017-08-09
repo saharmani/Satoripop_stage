@@ -1,0 +1,27 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table satoripop_dives_typeofdive'
+    - builder_table_create_satoripop_dives_typeofdive.php
+1.0.3:
+    - 'Created table satoripop_dives_baptisms'
+    - builder_table_create_satoripop_dives_baptisms.php
+1.0.4:
+    - 'Created table satoripop_dives_scubadiving'
+    - builder_table_create_satoripop_dives_scubadiving.php
+1.0.5:
+    - 'Created table satoripop_dives_othertypeofdiving'
+    - builder_table_create_satoripop_dives_othertypeofdiving.php
+1.0.6:
+    - 'Created table satoripop_dives_typeoftraining'
+    - builder_table_create_satoripop_dives_typeoftraining.php
+1.0.7:
+    - 'Created table satoripop_dives_levelsoftraining'
+    - builder_table_create_satoripop_dives_levelsoftraining.php
+1.0.8:
+    - 'Created table satoripop_dives_training'
+    - builder_table_create_satoripop_dives_training.php
+1.0.9:
+    - 'Created table satoripop_dives_additionalservices'
+    - builder_table_create_satoripop_dives_additionalservices.php
+

@@ -1,0 +1,10 @@
+name: Equipement
+form: $/satoripop/prices/models/equipment/fields.yaml
+modelClass: satoripop\Prices\Models\Equipment
+defaultRedirect: satoripop/prices/equipement
+create:
+    redirect: 'satoripop/prices/equipement/update/:id'
+    redirectClose: satoripop/prices/equipement
+update:
+    redirect: satoripop/prices/equipement
+    redirectClose: satoripop/prices/equipement

@@ -1,0 +1,48 @@
+columns:
+    id:
+        label: id
+        type: number
+        searchable: true
+        sortable: true
+    centername:
+        label: 'Nom du Centre'
+        type: text
+        searchable: true
+        sortable: true
+    managername:
+        label: 'Nom du Manager'
+        type: text
+        searchable: true
+        sortable: true
+    tel:
+        label: 'Numéro de téléphone'
+        type: number
+        searchable: true
+        sortable: true
+    ville:
+        label: Ville
+        type: text
+        searchable: true
+        sortable: true
+    pays:
+        label: Pays
+        type: text
+        searchable: true
+        sortable: true
+    email:
+        label: Email
+        type: text
+        searchable: true
+        sortable: true
+    question:
+        label: Question
+        type: text
+    valider:
+        label: valider
+        type: inetis-list-switch
+        icon: 'true'
+        titleTrue: 'Publish item'
+        titleFalse: ' Unpublish item'
+        textTrue: oui
+        textFalse: Non
+        

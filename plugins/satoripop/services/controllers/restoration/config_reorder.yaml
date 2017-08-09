@@ -1,0 +1,4 @@
+title: Restoration
+modelClass: satoripop\Services\Models\Restoration
+toolbar:
+    buttons: reorder_toolbar

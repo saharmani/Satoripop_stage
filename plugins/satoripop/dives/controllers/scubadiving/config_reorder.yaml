@@ -1,0 +1,4 @@
+title: Scubadiving
+modelClass: Satoripop\Dives\Models\Scubadiving
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,4 @@
+title: Waterenvy
+modelClass: satoripop\Infos\Models\Waterenvy
+toolbar:
+    buttons: reorder_toolbar

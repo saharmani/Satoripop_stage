@@ -1,0 +1,12 @@
+fields:
+    title:
+        label: title
+        oc.commentPosition: ''
+        span: full
+        type: text
+    description:
+        label: description
+        span: full
+        size: ''
+        oc.commentPosition: ''
+        type: textarea

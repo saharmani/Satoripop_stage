@@ -1,0 +1,10 @@
+name: Themes
+form: $/satoripop/divingcenter/models/theme/fields.yaml
+modelClass: satoripop\DivingCenter\Models\Theme
+defaultRedirect: satoripop/divingcenter/themes
+create:
+    redirect: 'satoripop/divingcenter/themes/update/:id'
+    redirectClose: satoripop/divingcenter/themes
+update:
+    redirect: satoripop/divingcenter/themes
+    redirectClose: satoripop/divingcenter/themes

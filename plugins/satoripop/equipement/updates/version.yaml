@@ -1,0 +1,28 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table satoripop_equipement_childequipments'
+    - builder_table_create_satoripop_equipement_childequipments.php
+1.0.3:
+    - 'Created table satoripop_equipement_adultmaterial'
+    - builder_table_create_satoripop_equipement_adultmaterial.php
+1.0.4:
+    - 'Created table satoripop_equipement_othermaterial'
+    - builder_table_create_satoripop_equipement_othermaterial.php
+1.0.5:
+    - 'Created table satoripop_equipement_inflationstation'
+    - builder_table_create_satoripop_equipement_inflationstation.php
+1.0.6:
+    - 'Created table satoripop_equipement_typeofboat'
+    - builder_table_create_satoripop_equipement_typeofboat.php
+1.0.7:
+    - 'Created table satoripop_equipement_numberofboats'
+    - builder_table_create_satoripop_equipement_numberofboats.php
+1.0.8:
+    - 'Created table satoripop_equipement_boatcapacity'
+    - builder_table_create_satoripop_equipement_boatcapacity.php
+1.0.9:
+    - 'Created table satoripop_equipement_boatequipment'
+    - builder_table_create_satoripop_equipement_boatequipment.php
+     
+

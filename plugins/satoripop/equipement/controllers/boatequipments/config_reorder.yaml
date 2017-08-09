@@ -1,0 +1,4 @@
+title: Boatequipments
+modelClass: satoripop\Equipement\Models\Boatequipment
+toolbar:
+    buttons: reorder_toolbar

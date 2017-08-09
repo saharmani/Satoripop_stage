@@ -1,0 +1,4 @@
+title: Destination
+modelClass: satoripop\Data\Models\Destination
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,10 @@
+name: Distancetothesea
+form: $/satoripop/infos/models/distancetothesea/fields.yaml
+modelClass: satoripop\Infos\Models\Distancetothesea
+defaultRedirect: satoripop/infos/distancetothesea
+create:
+    redirect: 'satoripop/infos/distancetothesea/update/:id'
+    redirectClose: satoripop/infos/distancetothesea
+update:
+    redirect: satoripop/infos/distancetothesea
+    redirectClose: satoripop/infos/distancetothesea

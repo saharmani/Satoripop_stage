@@ -1,0 +1,4 @@
+title: Inflationstations
+modelClass: satoripop\Equipement\Models\Inflationstation
+toolbar:
+    buttons: reorder_toolbar

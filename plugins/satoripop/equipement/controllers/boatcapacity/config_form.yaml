@@ -1,0 +1,10 @@
+name: Boatcapacity
+form: $/satoripop/equipement/models/boatcapacity/fields.yaml
+modelClass: satoripop\Equipement\Models\Boatcapacity
+defaultRedirect: satoripop/equipement/boatcapacity
+create:
+    redirect: 'satoripop/equipement/boatcapacity/update/:id'
+    redirectClose: satoripop/equipement/boatcapacity
+update:
+    redirect: satoripop/equipement/boatcapacity
+    redirectClose: satoripop/equipement/boatcapacity

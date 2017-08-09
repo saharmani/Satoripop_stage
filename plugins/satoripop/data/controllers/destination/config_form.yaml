@@ -1,0 +1,10 @@
+name: Destination
+form: $/satoripop/data/models/destination/fields.yaml
+modelClass: satoripop\Data\Models\Destination
+defaultRedirect: satoripop/data/destination
+create:
+    redirect: 'satoripop/data/destination/update/:id'
+    redirectClose: satoripop/data/destination
+update:
+    redirect: satoripop/data/destination
+    redirectClose: satoripop/data/destination

@@ -1,0 +1,146 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table satoripop_divingcenter_areas'
+    - builder_table_create_satoripop_divingcenter_areas.php
+1.0.3:
+    - 'Created table satoripop_divingcenter_destinations'
+    - builder_table_create_satoripop_divingcenter_destinations.php
+1.0.4:
+    - 'Created table satoripop_divingcenter_centers'
+    - builder_table_create_satoripop_divingcenter_centers.php
+1.0.5:
+    - 'Created table satoripop_divingcenter_accommodation'
+    - builder_table_create_satoripop_divingcenter_accommodation.php
+1.0.6:
+    - 'Created table satoripop_divingcenter_team_member'
+    - builder_table_create_satoripop_divingcenter_team_member.php
+1.0.7:
+    - 'Created table satoripop_divingcenter_themes'
+    - builder_table_create_satoripop_divingcenter_themes.php
+1.0.8:
+    - 'Created table satoripop_divingcenter_goodplans'
+    - builder_table_create_satoripop_divingcenter_goodplans.php
+1.0.10:
+    - 'Created table satoripop_divingcenter_news'
+    - builder_table_create_satoripop_divingcenter_news.php
+1.0.11:
+    - 'Created table satoripop_divingcenter_expertopinions'
+    - builder_table_create_satoripop_divingcenter_expertopinions.php
+1.0.14:
+    - 'Updated table satoripop_divingcenter_accommodation'
+    - builder_table_update_satoripop_divingcenter_accommodations.php
+1.0.15:
+    - 'Created table satoripop_divingcenter_child_equipments'
+    - builder_table_create_satoripop_divingcenter_child_equipments.php
+1.0.18:
+    - 'Drop table satoripop_divingcenter_childequipments'
+    - builder_table_delete_satoripop_divingcenter_childequipments.php
+1.0.19:
+    - 'Created table satoripop_divingcenter_teammembers'
+    - builder_table_create_satoripop_divingcenter_teammembers.php
+1.0.24:
+    - 'Created table satoripop_divingcenter_centers_themes'
+    - builder_table_create_satoripop_divingcenter_centers_themes.php
+1.0.39:
+    - 'Created table satoripop_divingcenter_centers_paymentmethod'
+    - builder_table_create_satoripop_divingcenter_centers_paymentmethod.php
+1.0.40:
+    - 'Created table satoripop_divingcenter_centers_spokenlanguages'
+    - builder_table_create_satoripop_divingcenter_centers_spokenlanguages.php
+1.0.44:
+    - 'Created table satoripop_divingcenter_centers_typeofdive'
+    - builder_table_create_satoripop_divingcenter_centers_typeofdive.php
+1.0.45:
+    - 'Created table satoripop_divingcenter_centers_typeoftraining'
+    - builder_table_create_satoripop_divingcenter_centers_typeoftraining.php
+1.0.46:
+    - 'Created table satoripop_divingcenter_centers_training'
+    - builder_table_create_satoripop_divingcenter_centers_training.php
+1.0.47:
+    - 'Created table satoripop_divingcenter_centers_scubadiving'
+    - builder_table_create_satoripop_divingcenter_centers_scubadiving.php
+1.0.48:
+    - 'Created table satoripop_divingcenter_centers_baptisms'
+    - builder_table_create_satoripop_divingcenter_centers_baptisms.php
+1.0.52:
+    - 'Created table satoripop_divingcenter_centers_othertypeofdiving'
+    - builder_table_create_satoripop_divingcenter_centers_othertypeofdiving.php
+1.0.53:
+    - 'Created table satoripop_divingcenter_centers_additionalservices'
+    - builder_table_create_satoripop_divingcenter_centers_additionalservices.php
+1.0.55:
+    - 'Created table satoripop_divingcenter_centers_childequipment'
+    - builder_table_create_satoripop_divingcenter_centers_childequipment.php
+1.0.56:
+    - 'Created table satoripop_divingcenter_centers_adultmaterials'
+    - builder_table_create_satoripop_divingcenter_centers_adultmaterials.php
+1.0.58:
+    - 'Created table satoripop_divingcenter_centers_typeofboat'
+    - builder_table_create_satoripop_divingcenter_centers_typeofboat.php
+1.0.59:
+    - 'Created table satoripop_divingcenter_centers_boatequipments'
+    - builder_table_create_satoripop_divingcenter_centers_boatequipments.php
+1.0.60:
+    - 'Created table satoripop_divingcenter_centers_transfers'
+    - builder_table_create_satoripop_divingcenter_centers_transfers.php
+1.0.61:
+    - 'Created table satoripop_divingcenter_centers_restoration'
+    - builder_table_create_satoripop_divingcenter_centers_restoration.php
+1.0.62:
+    - 'Created table satoripop_divingcenter_centers_photovideo'
+    - builder_table_create_satoripop_divingcenter_centers_photovideo.php
+1.0.63:
+    - 'Created table satoripop_divingcenter_centers_otherservices'
+    - builder_table_create_satoripop_divingcenter_centers_otherservices.php
+1.0.64:
+    - 'Created table satoripop_divingcenter_centers_products'
+    - builder_table_create_satoripop_divingcenter_centers_products.php
+1.0.65:
+    - 'Created table satoripop_divingcenter_centers_airenvy'
+    - builder_table_create_satoripop_divingcenter_centers_airenvy.php
+1.0.66:
+    - 'Created table satoripop_divingcenter_centers_waterenvy'
+    - builder_table_create_satoripop_divingcenter_centers_waterenvy.php
+1.0.72:
+    - 'Created table satoripop_divingcenter_centers_ecology'
+    - builder_table_create_satoripop_divingcenter_centers_ecology.php
+1.0.73:
+    - 'Created table satoripop_divingcenter_centers_comfort'
+    - builder_table_create_satoripop_divingcenter_centers_comfort.php
+1.0.74:
+    - 'Created table satoripop_divingcenter_openingperiod'
+    - builder_table_create_satoripop_divingcenter_openingperiod.php
+1.0.75:
+    - 'Created table satoripop_divingcenter_centers_openingperiod'
+    - builder_table_create_satoripop_divingcenter_centers_openingperiod.php
+1.0.90:
+    - 'Created table satoripop_divingcenter_map'
+    - builder_table_create_satoripop_divingcenter_map.php
+1.0.93:
+    - 'Created table satoripop_divingcenter_centers_accommodations'
+    - builder_table_create_satoripop_divingcenter_centers_accommodations.php
+1.0.94:
+    - 'Created table satoripop_divingcenter_centers_affiliations'
+    - builder_table_create_satoripop_divingcenter_centers_affiliations.php
+1.0.103:
+    - 'Created table satoripop_divingcenter_comments'
+    - builder_table_create_satoripop_divingcenter_comments.php
+1.0.105:
+    - 'Created table satoripop_divingcenter_booking'
+    - builder_table_create_satoripop_divingcenter_booking.php
+1.0.106:
+    - 'Created table satoripop_divingcenter_request'
+    - builder_table_create_satoripop_divingcenter_request.php
+1.0.107:
+    - 'Updated table satoripop_divingcenter_request'
+    - builder_table_update_satoripop_divingcenter_request.php
+1.0.108:
+    - 'Updated table satoripop_divingcenter_request'
+    - builder_table_update_satoripop_divingcenter_request_2.php
+1.0.109:
+    - 'Updated table satoripop_divingcenter_request'
+    - builder_table_update_satoripop_divingcenter_request_3.php
+1.0.110:
+    - 'Created table satoripop_divingcenter_statuts'
+    - builder_table_create_satoripop_divingcenter_statuts.php

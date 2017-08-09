@@ -1,0 +1,4 @@
+title: Themes
+modelClass: satoripop\DivingCenter\Models\Theme
+toolbar:
+    buttons: reorder_toolbar

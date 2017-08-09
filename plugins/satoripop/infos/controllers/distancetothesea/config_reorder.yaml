@@ -1,0 +1,4 @@
+title: Distancetothesea
+modelClass: satoripop\Infos\Models\Distancetothesea
+toolbar:
+    buttons: reorder_toolbar
